@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+:root {
+  --color-primary: #5c6ac4;
+  --color-white: #fff;
+  --color-secondary: #6264ba;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 87.5%;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  line-height: 1.2rem;
+  line-height: 1rem;
+}
+
+body {
+  font-family: Helvetica;
+
+  letter-spacing: 0em;
+}
+
+hr {
+  margin: 0;
+}
