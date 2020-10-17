@@ -20,3 +20,51 @@
     color: var(--color-white);
   }
 }
+
+.btn-black {
+  height: 3rem;
+  padding: 10px;
+  border: 1px solid #333333;
+  outline-width: 0;
+  border-top-right-radius: 35px;
+  border-bottom-right-radius: 35px;
+  color: white;
+  background-color: #333333;
+}
+
+.btn-red {
+  height: 3rem;
+  padding: 10px;
+  border: 1px solid var(--color-red);
+  outline-width: 0;
+  border-top-right-radius: 35px;
+  border-bottom-right-radius: 35px;
+  color: white;
+  background-color: var(--color-red);
+}
+
+// Custom box field
+
+.box {
+  display: flex;
+  align-items: center;
+  border: 1px solid gray;
+  border-radius: 35px;
+  height: 3rem;
+
+  & > img {
+    border-radius: 50%;
+    border: 1px solid black;
+    padding: 4px;
+    width: 3rem;
+    height: 3rem;
+  }
+
+  & > p {
+    margin-left: 10px;
+    font-size: 10px;
+    line-height: 15px;
+    margin-bottom: 0;
+    flex: 1;
+  }
+}

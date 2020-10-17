@@ -1,0 +1,30 @@
+.greyscale {
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+
+.outline-none {
+  outline: none;
+}
+
+hr {
+  margin-right: -5rem;
+  margin-left: -5rem;
+}
+
+.hr-dotted {
+  border-top: 3px dotted;
+}
+
+.default-hr {
+  margin: auto;
+  display: block;
+}
+
+.color-red {
+  color: var(--color-red);
+
+  &:hover {
+    color: var(--color-red-darker);
+  }
+}

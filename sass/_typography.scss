@@ -39,11 +39,21 @@ h4 {
   text-align: left;
 }
 
-hr {
-  margin-right: -5rem;
-  margin-left: -5rem;
+h5 {
+  font-family: Helvetica;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: var(--color-primary);
 }
 
-.hr-dotted {
-  border-top: 3px dotted;
+h6 {
+  font-family: Helvetica;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
 }
