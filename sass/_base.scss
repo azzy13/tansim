@@ -15,13 +15,12 @@
   --color-secondary: #6264ba;
   --color-red: #ff7a7a;
   --color-red-darker: #e05f61;
+  --color-light-blue: #ddefff;
 }
 
 html {
   box-sizing: border-box;
   font-size: 87.5%;
-  margin-left: 5rem;
-  margin-right: 5rem;
   line-height: 1.2rem;
   line-height: 1rem;
 }
@@ -30,8 +29,4 @@ body {
   font-family: Helvetica;
 
   letter-spacing: 0em;
-}
-
-hr {
-  margin: 0;
 }

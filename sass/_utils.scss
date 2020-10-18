@@ -7,11 +7,6 @@
   outline: none;
 }
 
-hr {
-  margin-right: -5rem;
-  margin-left: -5rem;
-}
-
 .hr-dotted {
   border-top: 3px dotted;
 }
@@ -27,4 +22,16 @@ hr {
   &:hover {
     color: var(--color-red-darker);
   }
+}
+
+.bg-blue {
+  background-color: var(--color-light-blue);
+}
+
+.container-cus {
+  margin: 0;
+}
+
+hr {
+  margin: 0;
 }

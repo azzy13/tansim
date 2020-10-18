@@ -12,22 +12,18 @@
   --color-white: #fff;
   --color-secondary: #6264ba;
   --color-red: #ff7a7a;
-  --color-red-darker: #e05f61; }
+  --color-red-darker: #e05f61;
+  --color-light-blue: #ddefff; }
 
 html {
   box-sizing: border-box;
   font-size: 87.5%;
-  margin-left: 5rem;
-  margin-right: 5rem;
   line-height: 1.2rem;
   line-height: 1rem; }
 
 body {
   font-family: Helvetica;
   letter-spacing: 0em; }
-
-hr {
-  margin: 0; }
 
 .btn-custom {
   background-color: var(--color-primary);
@@ -137,6 +133,16 @@ h6 {
   letter-spacing: 0em;
   text-align: left; }
 
+.customhead {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0.04em;
+  text-align: center;
+  text-transform: uppercase; }
+
 .greyscale {
   -webkit-filter: grayscale(100%);
   /* Safari 6.0 - 9.0 */
@@ -144,10 +150,6 @@ h6 {
 
 .outline-none {
   outline: none; }
-
-hr {
-  margin-right: -5rem;
-  margin-left: -5rem; }
 
 .hr-dotted {
   border-top: 3px dotted; }
@@ -160,3 +162,12 @@ hr {
   color: var(--color-red); }
   .color-red:hover {
     color: var(--color-red-darker); }
+
+.bg-blue {
+  background-color: var(--color-light-blue); }
+
+.container-cus {
+  margin: 0; }
+
+hr {
+  margin: 0; }
