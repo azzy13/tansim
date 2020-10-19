@@ -25,6 +25,9 @@ body {
   font-family: Helvetica;
   letter-spacing: 0em; }
 
+.btn-pd {
+  padding: 0.5rem 1.5rem; }
+
 .btn-custom {
   background-color: var(--color-primary);
   padding: 0.5rem 1.5rem; }
@@ -108,7 +111,7 @@ h3 {
   text-align: left; }
 
 h4 {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Lato;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -134,7 +137,7 @@ h6 {
   text-align: left; }
 
 .customhead {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Lato;
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
@@ -142,6 +145,9 @@ h6 {
   letter-spacing: 0.04em;
   text-align: center;
   text-transform: uppercase; }
+
+p {
+  font-family: Lato; }
 
 .greyscale {
   -webkit-filter: grayscale(100%);
