@@ -158,7 +158,7 @@ p {
   outline: none; }
 
 .hr-dotted {
-  border-top: 3px dotted; }
+  border-top: 2px dotted grey; }
 
 .default-hr {
   margin: auto;
