@@ -7,10 +7,19 @@
 .btn-custom {
   background-color: var(--color-primary);
   padding: 0.5rem 1.5rem;
+  font-family: Lato;
 
   &:hover {
     background-color: var(--color-white);
     color: var(--color-primary);
+  }
+
+  @media only screen and (max-width: 400px) {
+    width: 100%;
+    display: block;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
   }
 }
 
@@ -18,10 +27,18 @@
   padding: 0.5rem 1.5rem;
   color: var(--color-secondary);
   outline-color: var(--color-secondary);
+  font-family: Lato;
 
   &:hover {
     background-color: var(--color-primary);
     color: var(--color-white);
+  }
+
+  @media only screen and (max-width: 400px) {
+    width: 100%;
+    display: block;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
   }
 }
 

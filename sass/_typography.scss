@@ -6,6 +6,13 @@ h1 {
   line-height: 51px;
   letter-spacing: 0em;
   text-align: left;
+
+  @media only screen and (max-width: 400px) {
+    font-size: 30px;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
 }
 
 h2 {
@@ -37,6 +44,12 @@ h4 {
   line-height: 26px;
   letter-spacing: 0em;
   text-align: left;
+
+  @media only screen and (max-width: 400px) {
+    font-size: 13px;
+    line-height: 20px;
+    text-align: center;
+  }
 }
 
 h5 {

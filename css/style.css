@@ -24,24 +24,42 @@ html {
 body {
   font-family: Helvetica;
   letter-spacing: 0em; }
+  @media only screen and (max-width: 400px) {
+    body {
+      font-size: 13px; } }
 
 .btn-pd {
   padding: 0.5rem 1.5rem; }
 
 .btn-custom {
   background-color: var(--color-primary);
-  padding: 0.5rem 1.5rem; }
+  padding: 0.5rem 1.5rem;
+  font-family: Lato; }
   .btn-custom:hover {
     background-color: var(--color-white);
     color: var(--color-primary); }
+  @media only screen and (max-width: 400px) {
+    .btn-custom {
+      width: 100%;
+      display: block;
+      padding: 0.5rem;
+      margin-top: 0.5rem;
+      margin-bottom: 0.5rem; } }
 
 .btn-custom-2 {
   padding: 0.5rem 1.5rem;
   color: var(--color-secondary);
-  outline-color: var(--color-secondary); }
+  outline-color: var(--color-secondary);
+  font-family: Lato; }
   .btn-custom-2:hover {
     background-color: var(--color-primary);
     color: var(--color-white); }
+  @media only screen and (max-width: 400px) {
+    .btn-custom-2 {
+      width: 100%;
+      display: block;
+      padding: 0.5rem;
+      margin-top: 0.5rem; } }
 
 .btn-black {
   height: 3rem;
@@ -90,6 +108,12 @@ h1 {
   line-height: 51px;
   letter-spacing: 0em;
   text-align: left; }
+  @media only screen and (max-width: 400px) {
+    h1 {
+      font-size: 30px;
+      line-height: 38px;
+      letter-spacing: 0em;
+      text-align: center; } }
 
 h2 {
   font-family: Helvetica;
@@ -118,6 +142,11 @@ h4 {
   line-height: 26px;
   letter-spacing: 0em;
   text-align: left; }
+  @media only screen and (max-width: 400px) {
+    h4 {
+      font-size: 13px;
+      line-height: 20px;
+      text-align: center; } }
 
 h5 {
   font-family: Helvetica;
@@ -177,3 +206,12 @@ hr {
 
 .container {
   min-width: 90vw; }
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0; }
+
+@media only screen and (max-width: 400px) {
+  .card {
+    padding: 10px;
+    margin: 10px; } }
