@@ -14,12 +14,20 @@
     color: var(--color-primary);
   }
 
-  @media only screen and (max-width: 400px) {
+  @media only screen and (max-width: 450px) {
     width: 100%;
     display: block;
     padding: 0.5rem;
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
+  }
+}
+
+.btn-custom-3 {
+  padding: 0.5rem 1.5rem;
+  align-self: center;
+  @media only screen and (max-width: 450px) {
+    padding: 0.4rem 1.2rem;
   }
 }
 
@@ -34,7 +42,7 @@
     color: var(--color-white);
   }
 
-  @media only screen and (max-width: 400px) {
+  @media only screen and (max-width: 450px) {
     width: 100%;
     display: block;
     padding: 0.5rem;

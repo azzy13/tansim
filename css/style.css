@@ -24,7 +24,7 @@ html {
 body {
   font-family: Helvetica;
   letter-spacing: 0em; }
-  @media only screen and (max-width: 400px) {
+  @media only screen and (max-width: 450px) {
     body {
       font-size: 13px; } }
 
@@ -38,13 +38,20 @@ body {
   .btn-custom:hover {
     background-color: var(--color-white);
     color: var(--color-primary); }
-  @media only screen and (max-width: 400px) {
+  @media only screen and (max-width: 450px) {
     .btn-custom {
       width: 100%;
       display: block;
       padding: 0.5rem;
       margin-top: 0.5rem;
       margin-bottom: 0.5rem; } }
+
+.btn-custom-3 {
+  padding: 0.5rem 1.5rem;
+  align-self: center; }
+  @media only screen and (max-width: 450px) {
+    .btn-custom-3 {
+      padding: 0.4rem 1.2rem; } }
 
 .btn-custom-2 {
   padding: 0.5rem 1.5rem;
@@ -54,7 +61,7 @@ body {
   .btn-custom-2:hover {
     background-color: var(--color-primary);
     color: var(--color-white); }
-  @media only screen and (max-width: 400px) {
+  @media only screen and (max-width: 450px) {
     .btn-custom-2 {
       width: 100%;
       display: block;
@@ -108,7 +115,7 @@ h1 {
   line-height: 51px;
   letter-spacing: 0em;
   text-align: left; }
-  @media only screen and (max-width: 400px) {
+  @media only screen and (max-width: 450px) {
     h1 {
       font-size: 30px;
       line-height: 38px;
@@ -142,7 +149,7 @@ h4 {
   line-height: 26px;
   letter-spacing: 0em;
   text-align: left; }
-  @media only screen and (max-width: 400px) {
+  @media only screen and (max-width: 450px) {
     h4 {
       font-size: 13px;
       line-height: 20px;
@@ -164,6 +171,10 @@ h6 {
   line-height: 21px;
   letter-spacing: 0em;
   text-align: left; }
+  @media only screen and (max-width: 450px) {
+    h6 {
+      font-size: 12px;
+      line-height: 16px; } }
 
 .customhead {
   font-family: Lato;
@@ -205,13 +216,13 @@ hr {
   margin: 0; }
 
 .container {
-  min-width: 90vw; }
+  min-width: 85vw; }
 
 .dropdown:hover .dropdown-menu {
   display: block;
   margin-top: 0; }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 450px) {
   .card {
     padding: 10px;
     margin: 10px; } }

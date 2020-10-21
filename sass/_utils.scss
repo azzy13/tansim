@@ -33,7 +33,7 @@ hr {
 }
 
 .container {
-  min-width: 90vw;
+  min-width: 85vw;
 }
 
 .dropdown:hover .dropdown-menu {
@@ -42,7 +42,7 @@ hr {
 }
 
 .card {
-  @media only screen and (max-width: 400px) {
+  @media only screen and (max-width: 450px) {
     padding: 10px;
     margin: 10px;
   }

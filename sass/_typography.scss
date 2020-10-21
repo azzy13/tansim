@@ -7,7 +7,7 @@ h1 {
   letter-spacing: 0em;
   text-align: left;
 
-  @media only screen and (max-width: 400px) {
+  @media only screen and (max-width: 450px) {
     font-size: 30px;
     line-height: 38px;
     letter-spacing: 0em;
@@ -45,7 +45,7 @@ h4 {
   letter-spacing: 0em;
   text-align: left;
 
-  @media only screen and (max-width: 400px) {
+  @media only screen and (max-width: 450px) {
     font-size: 13px;
     line-height: 20px;
     text-align: center;
@@ -69,6 +69,11 @@ h6 {
   line-height: 21px;
   letter-spacing: 0em;
   text-align: left;
+
+  @media only screen and (max-width: 450px) {
+    font-size: 12px;
+    line-height: 16px;
+  }
 }
 
 .customhead {
