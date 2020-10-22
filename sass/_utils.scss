@@ -43,7 +43,14 @@ hr {
 
 .card {
   @media only screen and (max-width: 450px) {
-    padding: 10px;
-    margin: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+[class*='col-'] {
+  @media only screen and (max-width: 450px) {
+    padding-left: 10px;
+    padding-right: 10px;
   }
 }

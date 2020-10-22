@@ -195,7 +195,17 @@ h6 {
   text-transform: uppercase; }
 
 p {
-  font-family: Lato; }
+  font-family: Lato;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: -0.01em;
+  text-align: left; }
+  @media only screen and (max-width: 450px) {
+    p {
+      font-size: 12px;
+      line-height: 18px; } }
 
 .greyscale {
   -webkit-filter: grayscale(100%);
@@ -232,5 +242,10 @@ hr {
 
 @media only screen and (max-width: 450px) {
   .card {
-    padding: 10px;
-    margin: 10px; } }
+    padding-left: 10px;
+    padding-right: 10px; } }
+
+@media only screen and (max-width: 450px) {
+  [class*='col-'] {
+    padding-left: 10px;
+    padding-right: 10px; } }
