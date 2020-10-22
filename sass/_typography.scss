@@ -34,6 +34,11 @@ h3 {
   line-height: 34px;
   letter-spacing: 0em;
   text-align: left;
+
+  @media only screen and (max-width: 450px) {
+    font-size: 16px;
+    line-height: 20px;
+  }
 }
 
 h4 {
@@ -59,6 +64,11 @@ h5 {
   letter-spacing: 0em;
   text-align: left;
   color: var(--color-primary);
+
+  @media only screen and (max-width: 450px) {
+    font-size: 16px;
+    line-height: 18px;
+  }
 }
 
 h6 {
@@ -71,7 +81,7 @@ h6 {
   text-align: left;
 
   @media only screen and (max-width: 450px) {
-    font-size: 12px;
+    font-size: 16px;
     line-height: 16px;
   }
 }
