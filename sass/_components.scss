@@ -4,6 +4,19 @@
   padding: 0.5rem 1.5rem;
 }
 
+.btn-custom-3 {
+  padding: 0.5rem 1.5rem;
+  font-family: Lato;
+
+  @media only screen and (max-width: 450px) {
+    width: 100%;
+    display: block;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+}
+
 .btn-custom {
   background-color: var(--color-primary);
   padding: 0.5rem 1.5rem;

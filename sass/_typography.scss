@@ -1,6 +1,6 @@
 h1 {
   font-family: Helvetica;
-  font-size: 38px;
+  font-size: 41px;
   font-style: normal;
   font-weight: 700;
   line-height: 51px;
@@ -17,18 +17,25 @@ h1 {
 
 h2 {
   font-family: Helvetica;
-  font-size: 32px;
+  font-size: 26px;
   font-style: normal;
   font-weight: 700;
-  line-height: 37px;
+  line-height: 34px;
   letter-spacing: 0em;
   text-align: left;
-  color: var(--color-primary);
+
+  @media only screen and (max-width: 450px) {
+    font-family: Helvetica;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
 }
 
 h3 {
   font-family: Helvetica;
-  font-size: 23px;
+  font-size: 26px;
   font-style: normal;
   font-weight: 700;
   line-height: 34px;
@@ -63,7 +70,6 @@ h5 {
   line-height: 21px;
   letter-spacing: 0em;
   text-align: left;
-  color: var(--color-primary);
 
   @media only screen and (max-width: 450px) {
     font-size: 16px;
@@ -90,6 +96,7 @@ h6 {
   font-family: Lato;
   font-size: 12px;
   font-style: normal;
+  color: #999999;
   font-weight: 400;
   line-height: 14px;
   letter-spacing: 0.04em;
@@ -99,7 +106,7 @@ h6 {
 
 p {
   font-family: Lato;
-  font-size: 13px;
+  font-size: 14px;
   font-style: normal;
   font-weight: 400;
   line-height: 21px;
@@ -109,5 +116,22 @@ p {
   @media only screen and (max-width: 450px) {
     font-size: 12px;
     line-height: 18px;
+  }
+}
+
+.cusstyle-2 {
+  font-family: Helvetica;
+  font-size: 24px;
+  line-height: 39px;
+  letter-spacing: 0em;
+  text-align: center;
+
+  @media only screen and (max-width: 450px) {
+    font-family: Helvetica;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    font-weight: 200;
   }
 }
