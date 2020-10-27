@@ -1,19 +1,7 @@
+// Colours
 .greyscale {
   -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
   filter: grayscale(100%);
-}
-
-.outline-none {
-  outline: none;
-}
-
-.hr-dotted {
-  border-top: 2px dotted grey;
-}
-
-.default-hr {
-  margin: auto;
-  display: block;
 }
 
 .color-red {
@@ -24,33 +12,34 @@
   }
 }
 
+.color-black {
+  color: black;
+}
+
+.color-primary {
+  color: var(--color-primary);
+}
+
+.color-light-blue {
+  color: var(--color-light-blue);
+}
+
+.color-white {
+  color: #fff;
+}
+// bgs
+.bg-cream {
+  background-color: #fff1e0;
+}
+
+.bg-black {
+  background-color: black;
+}
+
 .bg-blue {
   background-color: var(--color-light-blue);
 }
 
-hr {
-  margin: 0;
-}
-
-.container {
-  min-width: 85vw;
-}
-
-.dropdown:hover .dropdown-menu {
-  display: block;
-  margin-top: 0;
-}
-
-.card {
-  @media only screen and (max-width: 450px) {
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-}
-
-[class*='col-'] {
-  @media only screen and (max-width: 450px) {
-    padding-left: 10px;
-    padding-right: 10px;
-  }
+.bg-dark-blue {
+  background-color: #2b377a;
 }

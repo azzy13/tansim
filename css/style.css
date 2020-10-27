@@ -32,15 +32,10 @@ body {
   padding: 0.5rem 1.5rem; }
 
 .btn-custom-3 {
-  padding: 0.5rem 1.5rem;
   font-family: Lato; }
   @media only screen and (max-width: 450px) {
     .btn-custom-3 {
-      width: 100%;
-      display: block;
-      padding: 0.5rem;
-      margin-top: 0.5rem;
-      margin-bottom: 0.5rem; } }
+      padding: 0.5rem 1rem; } }
 
 .btn-custom {
   background-color: var(--color-primary);
@@ -118,7 +113,7 @@ body {
     margin-bottom: 0;
     flex: 1; }
 
-h1 {
+.head-1 {
   font-family: Helvetica;
   font-size: 41px;
   font-style: normal;
@@ -127,29 +122,30 @@ h1 {
   letter-spacing: 0em;
   text-align: left; }
   @media only screen and (max-width: 450px) {
-    h1 {
+    .head-1 {
       font-size: 30px;
       line-height: 38px;
       letter-spacing: 0em;
       text-align: center; } }
 
-h2 {
+.head-2 {
   font-family: Helvetica;
-  font-size: 26px;
+  font-size: 32px;
   font-style: normal;
   font-weight: 700;
   line-height: 34px;
   letter-spacing: 0em;
-  text-align: left; }
+  text-align: left;
+  color: #6264ba; }
   @media only screen and (max-width: 450px) {
-    h2 {
+    .head-2 {
       font-family: Helvetica;
       font-size: 24px;
       line-height: 30px;
       letter-spacing: 0em;
       text-align: center; } }
 
-h3 {
+.head-3 {
   font-family: Helvetica;
   font-size: 26px;
   font-style: normal;
@@ -158,11 +154,27 @@ h3 {
   letter-spacing: 0em;
   text-align: left; }
   @media only screen and (max-width: 450px) {
-    h3 {
+    .head-3 {
+      font-family: Helvetica;
+      font-size: 24px;
+      line-height: 30px;
+      letter-spacing: 0em;
+      text-align: center; } }
+
+.head-4 {
+  font-family: Helvetica;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 34px;
+  letter-spacing: 0em;
+  text-align: left; }
+  @media only screen and (max-width: 450px) {
+    .head-4 {
       font-size: 16px;
       line-height: 20px; } }
 
-h4 {
+.head-5 {
   font-family: Lato;
   font-size: 18px;
   font-style: normal;
@@ -171,23 +183,23 @@ h4 {
   letter-spacing: 0em;
   text-align: left; }
   @media only screen and (max-width: 450px) {
-    h4 {
+    .head-5 {
       font-size: 13px;
       line-height: 20px;
       text-align: center; } }
 
-h5 {
+.head-6 {
   font-family: Helvetica;
   font-size: 18px;
   line-height: 21px;
   letter-spacing: 0em;
   text-align: left; }
   @media only screen and (max-width: 450px) {
-    h5 {
+    .head-6 {
       font-size: 16px;
       line-height: 18px; } }
 
-h6 {
+.head-7 {
   font-family: Helvetica;
   font-size: 18px;
   font-style: normal;
@@ -196,11 +208,11 @@ h6 {
   letter-spacing: 0em;
   text-align: left; }
   @media only screen and (max-width: 450px) {
-    h6 {
+    .head-7 {
       font-size: 16px;
       line-height: 16px; } }
 
-.customhead {
+.head-sm {
   font-family: Lato;
   font-size: 12px;
   font-style: normal;
@@ -211,7 +223,7 @@ h6 {
   text-align: center;
   text-transform: uppercase; }
 
-p {
+.para {
   font-family: Lato;
   font-size: 14px;
   font-style: normal;
@@ -220,18 +232,18 @@ p {
   letter-spacing: -0.01em;
   text-align: left; }
   @media only screen and (max-width: 450px) {
-    p {
+    .para {
       font-size: 12px;
       line-height: 18px; } }
 
-.cusstyle-2 {
+.head-footer {
   font-family: Helvetica;
   font-size: 24px;
   line-height: 39px;
   letter-spacing: 0em;
   text-align: center; }
   @media only screen and (max-width: 450px) {
-    .cusstyle-2 {
+    .head-footer {
       font-family: Helvetica;
       font-size: 12px;
       line-height: 16px;
@@ -244,23 +256,44 @@ p {
   /* Safari 6.0 - 9.0 */
   filter: grayscale(100%); }
 
-.outline-none {
-  outline: none; }
-
-.hr-dotted {
-  border-top: 2px dotted grey; }
-
-.default-hr {
-  margin: auto;
-  display: block; }
-
 .color-red {
   color: var(--color-red); }
   .color-red:hover {
     color: var(--color-red-darker); }
 
+.color-black {
+  color: black; }
+
+.color-primary {
+  color: var(--color-primary); }
+
+.color-light-blue {
+  color: var(--color-light-blue); }
+
+.color-white {
+  color: #fff; }
+
+.bg-cream {
+  background-color: #fff1e0; }
+
+.bg-black {
+  background-color: black; }
+
 .bg-blue {
   background-color: var(--color-light-blue); }
+
+.bg-dark-blue {
+  background-color: #2b377a; }
+
+@media only screen and (max-width: 450px) {
+  .card {
+    padding-left: 10px;
+    padding-right: 10px; } }
+
+@media only screen and (max-width: 450px) {
+  [class*='col-'] {
+    padding-left: 10px;
+    padding-right: 10px; } }
 
 hr {
   margin: 0; }
@@ -272,12 +305,9 @@ hr {
   display: block;
   margin-top: 0; }
 
-@media only screen and (max-width: 450px) {
-  .card {
-    padding-left: 10px;
-    padding-right: 10px; } }
+.hr-dotted {
+  border-top: 2px dotted grey; }
 
-@media only screen and (max-width: 450px) {
-  [class*='col-'] {
-    padding-left: 10px;
-    padding-right: 10px; } }
+.default-hr {
+  margin: auto;
+  display: block; }

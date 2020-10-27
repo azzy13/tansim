@@ -1,4 +1,4 @@
-h1 {
+.head-1 {
   font-family: Helvetica;
   font-size: 41px;
   font-style: normal;
@@ -15,7 +15,26 @@ h1 {
   }
 }
 
-h2 {
+.head-2 {
+  font-family: Helvetica;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 34px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #6264ba;
+
+  @media only screen and (max-width: 450px) {
+    font-family: Helvetica;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+}
+
+.head-3 {
   font-family: Helvetica;
   font-size: 26px;
   font-style: normal;
@@ -33,7 +52,7 @@ h2 {
   }
 }
 
-h3 {
+.head-4 {
   font-family: Helvetica;
   font-size: 26px;
   font-style: normal;
@@ -48,7 +67,7 @@ h3 {
   }
 }
 
-h4 {
+.head-5 {
   font-family: Lato;
   font-size: 18px;
   font-style: normal;
@@ -64,7 +83,7 @@ h4 {
   }
 }
 
-h5 {
+.head-6 {
   font-family: Helvetica;
   font-size: 18px;
   line-height: 21px;
@@ -77,7 +96,7 @@ h5 {
   }
 }
 
-h6 {
+.head-7 {
   font-family: Helvetica;
   font-size: 18px;
   font-style: normal;
@@ -92,7 +111,7 @@ h6 {
   }
 }
 
-.customhead {
+.head-sm {
   font-family: Lato;
   font-size: 12px;
   font-style: normal;
@@ -104,7 +123,7 @@ h6 {
   text-transform: uppercase;
 }
 
-p {
+.para {
   font-family: Lato;
   font-size: 14px;
   font-style: normal;
@@ -119,7 +138,7 @@ p {
   }
 }
 
-.cusstyle-2 {
+.head-footer {
   font-family: Helvetica;
   font-size: 24px;
   line-height: 39px;
