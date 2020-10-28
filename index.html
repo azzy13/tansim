@@ -257,8 +257,11 @@
 
       <div class="row mt-5">
         <!-- Left side cards -->
-        <div class="col-sm-5">
-          <div class="card shadow p-lg-2 p-sm-0 mb-lg-3 mb-2">
+        <div class="col-sm-5" role="tablist">
+          <div
+            class="card p-lg-2 p-sm-0 mb-lg-3 mb-2 active"
+            role="presentation"
+          >
             <div class="row">
               <div class="col-2 col-sm-2">
                 <img
@@ -279,13 +282,19 @@
                     It provides various information such as details about.
                     Startup ecosystem in State, events.
                   </p>
-                  <a href="#" class="stretched-link"></a>
+                  <a
+                    href="#firstGroup"
+                    aria-controls="firstGroup"
+                    role="tab"
+                    data-toggle="tab"
+                    class="stretched-link"
+                  ></a>
                 </div>
               </div>
             </div>
           </div>
 
-          <div class="card p-lg-2 p-sm-0 mb-lg-3 mb-2">
+          <div class="card p-lg-2 p-sm-0 mb-lg-3 mb-2" role="presentation">
             <div class="row">
               <div class="col-2 col-sm-2">
                 <img
@@ -297,12 +306,18 @@
               <div class="card-body">
                 <h5 class="card-title color-primary head-6">Validation</h5>
                 <p class="card-text mb-n1 para">Feedback & improve</p>
-                <a href="#" class="stretched-link"></a>
+                <a
+                  href="#secondGroup"
+                  aria-controls="secondGroup"
+                  role="tab"
+                  data-toggle="tab"
+                  class="stretched-link"
+                ></a>
               </div>
             </div>
           </div>
 
-          <div class="card p-lg-2 p-sm-0 mb-lg-3 mb-2">
+          <div class="card p-lg-2 p-sm-0 mb-lg-3 mb-2" role="presentation">
             <div class="row">
               <div class="col-2 col-sm-2">
                 <img
@@ -315,12 +330,18 @@
               <div class="card-body">
                 <h5 class="card-title color-primary head-6">Early Traction</h5>
                 <p class="card-text mb-n1 para">Upgrade your product</p>
-                <a href="#" class="stretched-link"></a>
+                <a
+                  href="#thirdGroup"
+                  aria-controls="thirdGroup"
+                  role="tab"
+                  data-toggle="tab"
+                  class="stretched-link"
+                ></a>
               </div>
             </div>
           </div>
 
-          <div class="card p-lg-2 p-xs-0 p-sm-0 mb-lg-3 mb-2">
+          <div class="card p-lg-2 p-sm-0 mb-lg-3 mb-2" role="presentation">
             <div class="row">
               <div class="col-2 col-sm-2">
                 <img
@@ -333,80 +354,310 @@
               <div class="card-body">
                 <h5 class="card-title color-primary head-6">Scaling</h5>
                 <p class="card-text mb-n1 para">Start your business</p>
-                <a href="#" class="stretched-link"></a>
+                <a
+                  href="#fourthGroup"
+                  aria-controls="fourthGroup"
+                  role="tab"
+                  data-toggle="tab"
+                  class="stretched-link"
+                ></a>
               </div>
             </div>
           </div>
         </div>
-        <!-- Right side cards -->
-        <div class="col-lg-7">
-          <div class="row">
-            <div class="col-12 col-lg-6">
-              <div class="card p-lg-2 p-xs-0 p-sm-0 mb-lg-5">
-                <div class="col-sm-10 col-xs-12">
-                  <div class="card-body">
-                    <h6 class="card-subtitle mb-2 head-7">Event</h6>
-                    <p class="card-text para">
-                      It provides various information such as details about.
-                      Startup ecosystem in State, events.
-                    </p>
-                    <a href="#" class="card-link">Know more ></a>
+
+        <div class="tab-content col-lg-7">
+          <!-- Right side cards -->
+
+          <div class="tab-pane in active" role="tabpanel" id="firstGroup">
+            <div class="row">
+              <div class="col-12 col-lg-6">
+                <div class="card p-lg-2 p-xs-0 p-sm-0 mb-lg-5">
+                  <div class="col-sm-10 col-xs-12">
+                    <div class="card-body">
+                      <h6 class="card-subtitle mb-2 head-7">Event</h6>
+                      <p class="card-text para">
+                        It provides various information such as details about.
+                        Startup ecosystem in State, events.
+                      </p>
+                      <a href="#" class="card-link">Know more ></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-lg-6">
+                <div class="card p-2 mb-lg-5 bg-cream">
+                  <div class="col-sm-10">
+                    <div class="card-body">
+                      <h6 class="card-subtitle mb-2 head-7">Deals</h6>
+                      <p class="card-text para">
+                        It provides various information such as details about.
+                        Startup ecosystem in State, events.
+                      </p>
+                      <a href="#" class="card-link">Know more ></a>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="col-12 col-lg-6">
-              <div class="card p-2 mb-lg-5 bg-cream">
-                <div class="col-sm-10">
-                  <div class="card-body">
-                    <h6 class="card-subtitle mb-2 head-7">Deals</h6>
-                    <p class="card-text para">
-                      It provides various information such as details about.
-                      Startup ecosystem in State, events.
-                    </p>
-                    <a href="#" class="card-link">Know more ></a>
+            <div class="row">
+              <div class="col-12 col-lg-6">
+                <div class="card p-2 mb-lg-5">
+                  <div class="col-sm-10">
+                    <div class="card-body">
+                      <h6 class="card-subtitle mb-2 head-7">Mentorship</h6>
+                      <p class="card-text para">
+                        It provides various information such as details about.
+                        Startup ecosystem in State, events.
+                      </p>
+                      <a href="#" class="card-link">Know more ></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-lg-6">
+                <div class="card p-2 mb-lg-5">
+                  <div class="col-sm-10">
+                    <div class="card-body">
+                      <h6 class="card-subtitle mb-2 head-7">Visibility</h6>
+                      <p class="card-text para">
+                        It provides various information such as details about.
+                        Startup ecosystem in State, events.
+                      </p>
+                      <a href="#" class="card-link">Know more ></a>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
+            <hr class="default-hr d-sm-none d-sm-flex d-none" />
+            <p class="mt-3 ml-3 p-2 para">
+              We help you to boose your business.
+              <span class="color-red--hover">
+                <a class="color-red" href="#">
+                  Startups Register &rarr;
+                </a></span
+              >
+            </p>
           </div>
-          <div class="row">
-            <div class="col-12 col-lg-6">
-              <div class="card p-2 mb-lg-5">
-                <div class="col-sm-10">
-                  <div class="card-body">
-                    <h6 class="card-subtitle mb-2 head-7">Mentorship</h6>
-                    <p class="card-text para">
-                      It provides various information such as details about.
-                      Startup ecosystem in State, events.
-                    </p>
-                    <a href="#" class="card-link">Know more ></a>
+          <div class="tab-pane fade" role="tabpanel" id="secondGroup">
+            <div class="row">
+              <div class="col-12 col-lg-6">
+                <div class="card p-lg-2 p-xs-0 p-sm-0 mb-lg-5">
+                  <div class="col-sm-10 col-xs-12">
+                    <div class="card-body">
+                      <h6 class="card-subtitle mb-2 head-7">
+                        Incubator Connect
+                      </h6>
+                      <p class="card-text para">
+                        Get access to incubation from Government recognized
+                        Incubators.
+                      </p>
+                      <a href="#" class="card-link">Know more ></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-lg-6">
+                <div class="card p-2 mb-lg-5 bg-cream">
+                  <div class="col-sm-10">
+                    <div class="card-body">
+                      <h6 class="card-subtitle mb-2 head-7">Booster Kit</h6>
+                      <p class="card-text para">
+                        Avail credits for cloud and secretarial services.
+                      </p>
+                      <a href="#" class="card-link">Know more ></a>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="col-12 col-lg-6">
-              <div class="card p-2 mb-lg-5">
-                <div class="col-sm-10">
-                  <div class="card-body">
-                    <h6 class="card-subtitle mb-2 head-7">Visibility</h6>
-                    <p class="card-text para">
-                      It provides various information such as details about.
-                      Startup ecosystem in State, events.
-                    </p>
-                    <a href="#" class="card-link">Know more ></a>
+            <div class="row">
+              <div class="col-12 col-lg-6">
+                <div class="card p-2 mb-lg-5">
+                  <div class="col-sm-10">
+                    <div class="card-body">
+                      <h6 class="card-subtitle mb-2 head-7">Schemes</h6>
+                      <p class="card-text para">
+                        Get benefits from the schemes of Startup TN.
+                      </p>
+                      <a href="#" class="card-link">Know more ></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-lg-6">
+                <div class="card p-2 mb-lg-5">
+                  <div class="col-sm-10">
+                    <div class="card-body">
+                      <h6 class="card-subtitle mb-2 head-7">Events</h6>
+                      <p class="card-text para">
+                        Network and Learn from fellow entrepreneurs.
+                      </p>
+                      <a href="#" class="card-link">Know more ></a>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
+            <hr class="default-hr d-sm-none d-sm-flex d-none" />
+            <p class="mt-3 ml-3 p-2 para">
+              We help you to boose your business.
+              <span class="color-red--hover">
+                <a class="color-red" href="#">
+                  Startups Register &rarr;
+                </a></span
+              >
+            </p>
           </div>
-          <hr class="default-hr d-sm-none d-sm-flex d-none" />
-          <p class="mt-3 ml-3 p-2 para">
-            We help you to boose your business.
-            <span class="color-red--hover">
-              <a class="color-red" href="#"> Startups Register &rarr; </a></span
-            >
-          </p>
+          <div class="tab-pane fade" role="tabpanel" id="thirdGroup">
+            <div class="row">
+              <div class="col-12 col-lg-6">
+                <div class="card p-lg-2 p-xs-0 p-sm-0 mb-lg-5">
+                  <div class="col-sm-10 col-xs-12">
+                    <div class="card-body">
+                      <h6 class="card-subtitle mb-2 head-7">
+                        Investor Connect
+                      </h6>
+                      <p class="card-text para">
+                        Find Investors and explore synergies.
+                      </p>
+                      <a href="#" class="card-link">Know more ></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-lg-6">
+                <div class="card p-2 mb-lg-5 bg-cream">
+                  <div class="col-sm-10">
+                    <div class="card-body">
+                      <h6 class="card-subtitle mb-2 head-7">
+                        Delegation Programs
+                      </h6>
+                      <p class="card-text para">
+                        Be part of Government organized National and
+                        International Delegation Program.
+                      </p>
+                      <a href="#" class="card-link">Know more ></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12 col-lg-6">
+                <div class="card p-2 mb-lg-5">
+                  <div class="col-sm-10">
+                    <div class="card-body">
+                      <h6 class="card-subtitle mb-2 head-7">Funding</h6>
+                      <p class="card-text para">
+                        Make use of Funding Schemes of Startup TN.
+                      </p>
+                      <a href="#" class="card-link">Know more ></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-lg-6">
+                <div class="card p-2 mb-lg-5">
+                  <div class="col-sm-10">
+                    <div class="card-body">
+                      <h6 class="card-subtitle mb-2 head-7">Deals</h6>
+                      <p class="card-text para">
+                        Avail discounts on event registrations.
+                      </p>
+                      <a href="#" class="card-link">Know more ></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <hr class="default-hr d-sm-none d-sm-flex d-none" />
+            <p class="mt-3 ml-3 p-2 para">
+              We help you to boose your business.
+              <span class="color-red--hover">
+                <a class="color-red" href="#">
+                  Startups Register &rarr;
+                </a></span
+              >
+            </p>
+          </div>
+          <div class="tab-pane fade" role="tabpanel" id="fourthGroup">
+            <div class="row">
+              <div class="col-12 col-lg-6">
+                <div class="card p-lg-2 p-xs-0 p-sm-0 mb-lg-5">
+                  <div class="col-sm-10 col-xs-12">
+                    <div class="card-body">
+                      <h6 class="card-subtitle mb-2 head-7">
+                        Accelerator Connect
+                      </h6>
+                      <p class="card-text para">
+                        Associate with Government recognized scale-up programs.
+                      </p>
+                      <a href="#" class="card-link">Know more ></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-lg-6">
+                <div class="card p-2 mb-lg-5">
+                  <div class="col-sm-10">
+                    <div class="card-body">
+                      <h6 class="card-subtitle mb-2 head-7">
+                        Branding Support
+                      </h6>
+                      <p class="card-text para">
+                        Get aids to display your business in conferences and
+                        events.
+                      </p>
+                      <a href="#" class="card-link">Know more ></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12 col-lg-6">
+                <div class="card p-2 mb-lg-5 bg-cream">
+                  <div class="col-sm-10">
+                    <div class="card-body">
+                      <h6 class="card-subtitle mb-2 head-7">
+                        Exchange programs
+                      </h6>
+                      <p class="card-text para">
+                        Be part of National and International Government
+                        exchange programs.
+                      </p>
+                      <a href="#" class="card-link">Know more ></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-lg-6">
+                <div class="card p-2 mb-lg-5">
+                  <div class="col-sm-10">
+                    <div class="card-body">
+                      <h6 class="card-subtitle mb-2 head-7">Partnership</h6>
+                      <p class="card-text para">
+                        Connect with active startup communities and organization
+                        in the State.
+                      </p>
+                      <a href="#" class="card-link">Know more ></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <hr class="default-hr d-sm-none d-sm-flex d-none" />
+            <p class="mt-3 ml-3 p-2 para">
+              We help you to boose your business.
+              <span class="color-red--hover">
+                <a class="color-red" href="#">
+                  Startups Register &rarr;
+                </a></span
+              >
+            </p>
+          </div>
         </div>
         <!-- right side cards end -->
       </div>
