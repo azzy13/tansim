@@ -113,6 +113,38 @@ body {
     margin-bottom: 0;
     flex: 1; }
 
+.head-xl {
+  font-family: Helvetica;
+  font-size: 44px;
+  line-height: 52px;
+  letter-spacing: 0em;
+  text-align: center; }
+
+.head-lg {
+  font-family: Helvetica;
+  font-size: 30px;
+  line-height: 36px; }
+
+.para-2 {
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left; }
+
+.para-sm {
+  font-family: Lato;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 14px;
+  letter-spacing: 0.04em;
+  text-align: left;
+  text-transform: uppercase;
+  color: #999999; }
+
 .head-1 {
   font-family: Helvetica;
   font-size: 41px;
@@ -285,6 +317,12 @@ body {
 .bg-dark-blue {
   background-color: #2b377a; }
 
+.shadow-blue {
+  box-shadow: 10px -10px 1px #e8f0fd; }
+
+.border-blue {
+  border: 3px solid #e8f0fd; }
+
 @media only screen and (max-width: 450px) {
   .card {
     padding-left: 10px;
@@ -311,3 +349,14 @@ hr {
 .default-hr {
   margin: auto;
   display: block; }
+
+.position {
+  margin-top: 110px;
+  margin-left: 115px;
+  z-index: 2000; }
+
+.min-height {
+  min-height: 30rem; }
+
+.opacity-1 {
+  opacity: 1; }
