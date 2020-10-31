@@ -38,12 +38,24 @@ hr {
   margin-top: 110px;
   margin-left: 115px;
   z-index: 2000;
-}
+  position: relative;
 
-.min-height {
-  min-height: 30rem;
+  @media only screen and (max-width: 450px) {
+    margin: 0;
+    min-width: 90wv;
+  }
 }
 
 .opacity-1 {
   opacity: 1;
+}
+
+.padding-y {
+  padding-top: 0.7rem;
+  padding-bottom: 0.7rem;
+}
+
+// dev
+.min-height {
+  min-height: 30rem;
 }

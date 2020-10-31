@@ -27,9 +27,14 @@
 .color-white {
   color: #fff;
 }
+
 // bgs
 .bg-cream {
   background-color: #fff1e0;
+}
+
+.bg-cream-2 {
+  background: #fff4e6;
 }
 
 .bg-black {
@@ -40,8 +45,20 @@
   background-color: var(--color-light-blue);
 }
 
+.bg-light-blue {
+  background: #ecf3ff;
+}
+
+.bg-light-pink {
+  background: #fff4fd;
+}
+
 .bg-dark-blue {
   background-color: #2b377a;
+}
+
+.bg-yellow {
+  background: #ffad4e;
 }
 
 // Shadow
@@ -52,4 +69,14 @@
 // border
 .border-blue {
   border: 3px solid #e8f0fd;
+  z-index: 10;
+}
+
+.border-color-blue {
+  border-color: #e8f0fd;
+  border-width: 2px;
+  @media only screen and (max-width: 450px) {
+    border-bottom-width: 2px;
+    border-right: 0;
+  }
 }

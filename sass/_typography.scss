@@ -5,12 +5,27 @@
   line-height: 52px;
   letter-spacing: 0em;
   text-align: center;
+
+  @media only screen and (max-width: 450px) {
+    font-size: 30px;
+    line-height: 37px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
 }
 
 .head-lg {
   font-family: Helvetica;
   font-size: 30px;
   line-height: 36px;
+}
+
+.head-md {
+  font-family: Helvetica;
+  font-size: 20px;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
 }
 
 .para-2 {
@@ -21,6 +36,11 @@
   line-height: 26px;
   letter-spacing: 0em;
   text-align: left;
+
+  @media only screen and (max-width: 450px) {
+    font-size: 13px;
+    line-height: 20px;
+  }
 }
 
 .para-sm {
