@@ -31,10 +31,10 @@ body {
 .btn-pd {
   padding: 0.5rem 1.5rem; }
 
-.btn-custom-3 {
+.btn-custom-4 {
   font-family: Lato; }
   @media only screen and (max-width: 450px) {
-    .btn-custom-3 {
+    .btn-custom-4 {
       padding: 0.5rem 1rem; } }
 
 .btn-custom {
@@ -57,7 +57,8 @@ body {
   align-self: center; }
   @media only screen and (max-width: 450px) {
     .btn-custom-3 {
-      padding: 0.4rem 1.2rem; } }
+      padding: 0.4rem 1.2rem;
+      width: 100%; } }
 
 .btn-custom-2 {
   padding: 0.5rem 1.5rem;
@@ -113,6 +114,20 @@ body {
     margin-bottom: 0;
     flex: 1; }
 
+.head-footer-1 {
+  font-family: Helvetica;
+  font-size: 44px;
+  line-height: 52px;
+  letter-spacing: 0em;
+  text-align: center; }
+  @media only screen and (max-width: 450px) {
+    .head-footer-1 {
+      font-family: Helvetica;
+      font-size: 20px;
+      line-height: 28px;
+      letter-spacing: 0em;
+      text-align: center; } }
+
 .head-xl {
   font-family: Helvetica;
   font-size: 44px;
@@ -130,6 +145,13 @@ body {
   font-family: Helvetica;
   font-size: 30px;
   line-height: 36px; }
+  @media only screen and (max-width: 450px) {
+    .head-lg {
+      font-family: Helvetica;
+      font-size: 24px;
+      line-height: 28px;
+      letter-spacing: 0em;
+      text-align: left; } }
 
 .head-md {
   font-family: Helvetica;
@@ -137,6 +159,13 @@ body {
   line-height: 27px;
   letter-spacing: 0em;
   text-align: left; }
+  @media only screen and (max-width: 450px) {
+    .head-md {
+      font-family: Helvetica;
+      font-size: 16px;
+      line-height: 20px;
+      letter-spacing: 0em;
+      text-align: left; } }
 
 .para-2 {
   font-family: Lato;
@@ -346,6 +375,9 @@ body {
 .bg-yellow {
   background: #ffad4e; }
 
+.bg-grey {
+  background: #f5f5f5; }
+
 .shadow-blue {
   box-shadow: 10px -10px 1px #e8f0fd; }
 
@@ -355,11 +387,12 @@ body {
 
 .border-color-blue {
   border-color: #e8f0fd;
-  border-width: 2px; }
+  border-width: 2px;
+  border-bottom: 0; }
   @media only screen and (max-width: 450px) {
     .border-color-blue {
-      border-bottom-width: 2px;
-      border-right: 0; } }
+      border-right: 0;
+      border-bottom: 2px solid #e8f0fd; } }
 
 @media only screen and (max-width: 450px) {
   .card {
@@ -404,6 +437,10 @@ hr {
 .padding-y {
   padding-top: 0.7rem;
   padding-bottom: 0.7rem; }
+
+.scrollable {
+  flex-wrap: nowrap;
+  overflow: auto; }
 
 .min-height {
   min-height: 30rem; }

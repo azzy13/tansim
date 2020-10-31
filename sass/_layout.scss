@@ -55,6 +55,11 @@ hr {
   padding-bottom: 0.7rem;
 }
 
+.scrollable {
+  flex-wrap: nowrap;
+  overflow: auto;
+}
+
 // dev
 .min-height {
   min-height: 30rem;
