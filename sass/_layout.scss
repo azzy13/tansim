@@ -46,8 +46,16 @@ hr {
   }
 }
 
-.opacity-1 {
-  opacity: 1;
+.position-2 {
+  margin-top: 50px;
+  margin-left: 200px;
+  z-index: 2000;
+  position: relative;
+
+  @media only screen and (max-width: 450px) {
+    margin: 0;
+    min-width: 90wv;
+  }
 }
 
 .padding-y {
@@ -60,7 +68,20 @@ hr {
   overflow: auto;
 }
 
-// dev
-.min-height {
-  min-height: 30rem;
+.cursor {
+  cursor: pointer;
+}
+
+.icon {
+  vertical-align: middle;
+  font-size: 1.4rem;
+}
+
+.custom-plus {
+  font-size: 2rem;
+  color: #dbe9ff;
+}
+
+.w-40 {
+  width: 40%;
 }

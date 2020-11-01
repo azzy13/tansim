@@ -36,21 +36,27 @@
     <!-- Nav -->
     <header>
       <nav class="navbar navbar-expand-lg navbar-light border-bottom">
-        <div class="container">
+        <div class="container d-flex">
           <a class="navbar-brand" href="#">
             <img src="assets/logo.png" alt="logo" />
           </a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
+          <div class="d-flex align-items-center justify-content-center">
+            <span><i class="far fa-bell d-lg-none d-block icon p-1"></i></span>
+            <span
+              ><i class="fas fa-share-alt d-lg-none d-block icon p-2"></i
+            ></span>
+            <button
+              class="navbar-toggler border-0 p-1"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon p-1"></span>
+            </button>
+          </div>
 
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
@@ -258,21 +264,24 @@
         <!-- Left side cards -->
         <div class="col-sm-5" role="tablist">
           <div
-            class="card p-lg-2 p-sm-0 mb-lg-3 mb-2 active card-hover"
+            class="card p-lg-2 p-sm-0 mb-lg-3 mb-2 active shadow-lg cursor"
             role="presentation"
+            id="ideation"
           >
             <div class="row">
               <div class="col-2 col-sm-2">
                 <img
-                  class="card-img-left d-flex p-lg-2 mt-1"
+                  class="card-img-left d-flex p-lg-2 mt-1 icon1"
                   src="assets/ideation.png"
                   alt="Card image cap"
                 />
               </div>
               <div class="col-lg-10 py-2 py-lg-2 pl-0">
                 <div class="card-body">
-                  <h5 class="card-title color-primary head-6">
-                    <strong>Ideation</strong>
+                  <h5
+                    class="card-title color-primary head-6 icon1 font-weight-bold"
+                  >
+                    Ideation
                   </h5>
                   <h6 class="card-subtitle mb-1 mb-lg-3 head-7">
                     To Kickstart your business
@@ -281,103 +290,82 @@
                     It provides various information such as details about.
                     Startup ecosystem in State, events.
                   </p>
-                  <a
-                    href="#firstGroup"
-                    aria-controls="firstGroup"
-                    role="tab"
-                    data-toggle="tab"
-                    class="stretched-link"
-                  ></a>
                 </div>
               </div>
             </div>
           </div>
 
           <div
-            class="card p-lg-2 p-sm-0 mb-lg-3 mb-2 card-hover"
+            class="card p-lg-2 p-sm-0 mb-lg-3 mb-2 cursor"
             role="presentation"
+            id="validation"
           >
             <div class="row">
               <div class="col-2 col-sm-2">
                 <img
-                  class="card-img-left d-flex p-lg-2 mt-1 greyscale"
+                  class="card-img-left d-flex p-lg-2 mt-1 greyscale icon2"
                   src="assets/validation.png"
                   alt="Card image cap"
                 />
               </div>
               <div class="card-body">
-                <h5 class="card-title color-primary head-6">Validation</h5>
+                <h5 class="card-title color-primary head-6 icon2">
+                  Validation
+                </h5>
                 <p class="card-text mb-n1 para">Feedback & improve</p>
-                <a
-                  href="#secondGroup"
-                  aria-controls="secondGroup"
-                  role="tab"
-                  data-toggle="tab"
-                  class="stretched-link"
-                ></a>
               </div>
             </div>
           </div>
 
           <div
-            class="card p-lg-2 p-sm-0 mb-lg-3 mb-2 card-hover"
+            class="card p-lg-2 p-sm-0 mb-lg-3 mb-2 cursor"
             role="presentation"
+            id="earlytraction"
           >
             <div class="row">
               <div class="col-2 col-sm-2">
                 <img
-                  class="card-img-left d-flex p-lg-2 mt-1 greyscale"
+                  class="card-img-left d-flex p-lg-2 mt-1 greyscale icon3"
                   src="assets/trophy.png"
                   alt="Card image cap"
                 />
               </div>
 
               <div class="card-body">
-                <h5 class="card-title color-primary head-6">Early Traction</h5>
+                <h5 class="card-title color-primary head-6 icon3">
+                  Early Traction
+                </h5>
                 <p class="card-text mb-n1 para">Upgrade your product</p>
-                <a
-                  href="#thirdGroup"
-                  aria-controls="thirdGroup"
-                  role="tab"
-                  data-toggle="tab"
-                  class="stretched-link"
-                ></a>
               </div>
             </div>
           </div>
 
           <div
-            class="card p-lg-2 p-sm-0 mb-lg-3 mb-2 card-hover"
+            class="card p-lg-2 p-sm-0 mb-lg-3 mb-2 cursor"
             role="presentation"
+            id="scaling"
           >
             <div class="row">
               <div class="col-2 col-sm-2">
                 <img
-                  class="card-img-left d-flex p-lg-2 mt-1 greyscale"
+                  class="card-img-left d-flex p-lg-2 mt-1 greyscale icon4"
                   src="assets/scaling.png"
                   alt="Card image cap"
                 />
               </div>
 
               <div class="card-body">
-                <h5 class="card-title color-primary head-6">Scaling</h5>
+                <h5 class="card-title color-primary head-6 icon4">Scaling</h5>
                 <p class="card-text mb-n1 para">Start your business</p>
-                <a
-                  href="#fourthGroup"
-                  aria-controls="fourthGroup"
-                  role="tab"
-                  data-toggle="tab"
-                  class="stretched-link"
-                ></a>
               </div>
             </div>
           </div>
         </div>
 
-        <div class="tab-content col-lg-7 p-4">
+        <div class="col-lg-7 p-4">
           <!-- Right side cards -->
 
-          <div class="tab-pane in active" role="tabpanel" id="firstGroup">
+          <div id="firstGroup">
             <div class="row">
               <div class="col-10 col-lg-6">
                 <div class="card p-lg-2 p-xs-0 p-sm-0 mb-lg-5 border-0">
@@ -448,7 +436,7 @@
               >
             </p>
           </div>
-          <div class="tab-pane fade" role="tabpanel" id="secondGroup">
+          <div id="secondGroup">
             <div class="row">
               <div class="col-12 col-lg-6">
                 <div class="card p-lg-2 p-xs-0 p-sm-0 mb-lg-5 border-0">
@@ -518,7 +506,7 @@
               >
             </p>
           </div>
-          <div class="tab-pane fade" role="tabpanel" id="thirdGroup">
+          <div id="thirdGroup">
             <div class="row">
               <div class="col-12 col-lg-6">
                 <div class="card p-lg-2 p-xs-0 p-sm-0 mb-lg-5 border-0">
@@ -590,7 +578,7 @@
               >
             </p>
           </div>
-          <div class="tab-pane fade" role="tabpanel" id="fourthGroup">
+          <div id="fourthGroup">
             <div class="row">
               <div class="col-12 col-lg-6">
                 <div class="card p-lg-2 p-xs-0 p-sm-0 mb-lg-5 border-0">

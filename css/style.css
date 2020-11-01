@@ -114,6 +114,22 @@ body {
     margin-bottom: 0;
     flex: 1; }
 
+.head-md-2 {
+  font-family: Helvetica;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: left; }
+
+.head-sub {
+  font-family: Lato;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left; }
+
 .head-footer-1 {
   font-family: Helvetica;
   font-size: 44px;
@@ -394,6 +410,22 @@ body {
       border-right: 0;
       border-bottom: 2px solid #e8f0fd; } }
 
+.dashed {
+  border-style: dashed; }
+
+.a-reset {
+  text-decoration: none;
+  color: inherit; }
+  .a-reset :hover,
+  .a-reset :before,
+  .a-reset :after {
+    text-decoration: none;
+    color: black; }
+
+.flatic::before {
+  font-size: 2rem;
+  width: 200px; }
+
 @media only screen and (max-width: 450px) {
   .card {
     padding-left: 10px;
@@ -431,8 +463,15 @@ hr {
       margin: 0;
       min-width: 90wv; } }
 
-.opacity-1 {
-  opacity: 1; }
+.position-2 {
+  margin-top: 50px;
+  margin-left: 200px;
+  z-index: 2000;
+  position: relative; }
+  @media only screen and (max-width: 450px) {
+    .position-2 {
+      margin: 0;
+      min-width: 90wv; } }
 
 .padding-y {
   padding-top: 0.7rem;
@@ -442,5 +481,16 @@ hr {
   flex-wrap: nowrap;
   overflow: auto; }
 
-.min-height {
-  min-height: 30rem; }
+.cursor {
+  cursor: pointer; }
+
+.icon {
+  vertical-align: middle;
+  font-size: 1.4rem; }
+
+.custom-plus {
+  font-size: 2rem;
+  color: #dbe9ff; }
+
+.w-40 {
+  width: 40%; }

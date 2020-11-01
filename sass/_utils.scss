@@ -85,3 +85,25 @@
     border-bottom: 2px solid #e8f0fd;
   }
 }
+
+.dashed {
+  border-style: dashed;
+}
+
+// misc
+.a-reset {
+  text-decoration: none;
+  color: inherit;
+
+  :hover,
+  :before,
+  :after {
+    text-decoration: none;
+    color: black;
+  }
+}
+
+.flatic::before {
+  font-size: 2rem;
+  width: 200px;
+}
