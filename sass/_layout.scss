@@ -64,3 +64,8 @@ hr {
   vertical-align: middle;
   font-size: 1.4rem;
 }
+
+.grid {
+  display: grid;
+  grid-auto-rows: 1fr;
+}
