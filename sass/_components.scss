@@ -105,3 +105,16 @@
     flex: 1;
   }
 }
+
+// team members hover
+.member-hover {
+  cursor: pointer;
+  &:hover {
+    background-color: var(--color-primary);
+
+    & * h1,
+    & * p {
+      color: var(--color-white);
+    }
+  }
+}
