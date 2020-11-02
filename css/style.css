@@ -489,3 +489,15 @@ hr {
 .grid {
   display: grid;
   grid-auto-rows: 1fr; }
+  @media only screen and (max-width: 450px) {
+    .grid {
+      display: block;
+      grid-auto-rows: 1fr; } }
+
+.grid-2 {
+  display: grid;
+  grid-row: 1fr; }
+  @media only screen and (max-width: 450px) {
+    .grid-2 {
+      display: inline-block;
+      grid-row: 1fr; } }
