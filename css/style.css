@@ -122,6 +122,19 @@ body {
     .member-hover:hover * p {
       color: var(--color-white); }
 
+.map-container {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0; }
+
+.map-container iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute; }
+
 .head-md-2 {
   font-family: Helvetica;
   font-size: 24px;
