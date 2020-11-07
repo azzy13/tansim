@@ -7,16 +7,6 @@
   text-align: left;
 }
 
-.head-sub {
-  font-family: Lato;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 22px;
-  letter-spacing: 0em;
-  text-align: left;
-}
-
 // About
 .head-footer-1 {
   font-family: Helvetica;
@@ -29,21 +19,6 @@
     font-family: Helvetica;
     font-size: 20px;
     line-height: 28px;
-    letter-spacing: 0em;
-    text-align: center;
-  }
-}
-
-.head-xl {
-  font-family: Helvetica;
-  font-size: 44px;
-  line-height: 52px;
-  letter-spacing: 0em;
-  text-align: center;
-
-  @media only screen and (max-width: 450px) {
-    font-size: 30px;
-    line-height: 37px;
     letter-spacing: 0em;
     text-align: center;
   }
@@ -88,10 +63,10 @@
   letter-spacing: 0em;
   text-align: left;
 
-  @media only screen and (max-width: 450px) {
-    font-size: 13px;
-    line-height: 20px;
-  }
+  // @media only screen and (max-width: 450px) {
+  //   font-size: 13px;
+  //   line-height: 20px;
+  // }
 }
 
 .para-sm {
@@ -107,9 +82,24 @@
 }
 
 // Home
+.head-xl {
+  font-family: Helvetica;
+  font-size: 48px;
+  line-height: 52px;
+  letter-spacing: 0em;
+  text-align: center;
+
+  @media only screen and (max-width: 450px) {
+    font-size: 30px;
+    line-height: 37px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+}
+
 .head-1 {
   font-family: Helvetica;
-  font-size: 41px;
+  font-size: 56px;
   font-style: normal;
   font-weight: 700;
   line-height: 51px;
@@ -125,7 +115,7 @@
 }
 
 .head-2 {
-  font-family: Helvetica;
+  font-family: Lato;
   font-size: 32px;
   font-style: normal;
   font-weight: 700;
@@ -144,7 +134,7 @@
 }
 
 .head-3 {
-  font-family: Helvetica;
+  font-family: Lato;
   font-size: 26px;
   font-style: normal;
   font-weight: 700;
@@ -162,8 +152,8 @@
 }
 
 .head-4 {
-  font-family: Helvetica;
-  font-size: 26px;
+  font-family: Lato;
+  font-size: 23px;
   font-style: normal;
   font-weight: 700;
   line-height: 34px;
@@ -178,35 +168,35 @@
 
 .head-5 {
   font-family: Lato;
-  font-size: 18px;
+  font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 26px;
   letter-spacing: 0em;
   text-align: left;
 
-  @media only screen and (max-width: 450px) {
-    font-size: 13px;
-    line-height: 20px;
-    text-align: center;
-  }
+  // @media only screen and (max-width: 450px) {
+  //   font-size: 13px;
+  //   line-height: 20px;
+  //   text-align: center;
+  // }
 }
 
 .head-6 {
-  font-family: Helvetica;
+  font-family: Lato;
   font-size: 18px;
   line-height: 21px;
   letter-spacing: 0em;
   text-align: left;
 
-  @media only screen and (max-width: 450px) {
-    font-size: 16px;
-    line-height: 18px;
-  }
+  // @media only screen and (max-width: 450px) {
+  //   font-size: 14px;
+  //   line-height: 18px;
+  // }
 }
 
 .head-7 {
-  font-family: Helvetica;
+  font-family: Lato;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
@@ -214,10 +204,20 @@
   letter-spacing: 0em;
   text-align: left;
 
-  @media only screen and (max-width: 450px) {
-    font-size: 16px;
-    line-height: 16px;
-  }
+  // @media only screen and (max-width: 450px) {
+  //   font-size: 16px;
+  //   line-height: 16px;
+  // }
+}
+
+.head-sub {
+  font-family: Lato;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
 }
 
 .head-sm {
@@ -238,13 +238,12 @@
   font-style: normal;
   font-weight: 400;
   line-height: 21px;
-  letter-spacing: -0.01em;
   text-align: left;
 
-  @media only screen and (max-width: 450px) {
-    font-size: 12px;
-    line-height: 18px;
-  }
+  // @media only screen and (max-width: 450px) {
+  //   font-size: 12px;
+  //   line-height: 18px;
+  // }
 }
 
 .head-footer {
@@ -256,7 +255,7 @@
 
   @media only screen and (max-width: 450px) {
     font-family: Helvetica;
-    font-size: 12px;
+    font-size: 14px;
     line-height: 16px;
     letter-spacing: 0em;
     text-align: left;

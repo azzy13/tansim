@@ -28,6 +28,13 @@
   color: #fff;
 }
 
+.color-yellow {
+  color: #fad236;
+}
+
+#svg-footer {
+  fill: white;
+}
 // bgs
 .bg-cream {
   background-color: #fff1e0;
@@ -38,7 +45,7 @@
 }
 
 .bg-black {
-  background-color: black;
+  background-color: #404040;
 }
 
 .bg-blue {
@@ -53,6 +60,10 @@
   background: #fff4fd;
 }
 
+.bg-darkpink {
+  background: #ff7a7a;
+}
+
 .bg-dark-blue {
   background-color: #2b377a;
 }
@@ -63,6 +74,17 @@
 
 .bg-grey {
   background: #f5f5f5;
+}
+
+.bg-white {
+  background: white;
+}
+
+.hover-color {
+  &:hover {
+    color: #fad236;
+    text-decoration: none;
+  }
 }
 
 // Shadow
@@ -95,11 +117,10 @@
   text-decoration: none;
   color: inherit;
 
-  :hover,
-  :before,
-  :after {
-    text-decoration: none;
-    color: black;
+  &:hover,
+  &:before,
+  &:after {
+    color: inherit;
   }
 }
 

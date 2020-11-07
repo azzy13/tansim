@@ -109,7 +109,6 @@ body {
     height: 3rem; }
   .box > p {
     margin-left: 10px;
-    font-size: 10px;
     line-height: 15px;
     margin-bottom: 0;
     flex: 1; }
@@ -142,15 +141,6 @@ body {
   letter-spacing: 0em;
   text-align: left; }
 
-.head-sub {
-  font-family: Lato;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 22px;
-  letter-spacing: 0em;
-  text-align: left; }
-
 .head-footer-1 {
   font-family: Helvetica;
   font-size: 44px;
@@ -162,19 +152,6 @@ body {
       font-family: Helvetica;
       font-size: 20px;
       line-height: 28px;
-      letter-spacing: 0em;
-      text-align: center; } }
-
-.head-xl {
-  font-family: Helvetica;
-  font-size: 44px;
-  line-height: 52px;
-  letter-spacing: 0em;
-  text-align: center; }
-  @media only screen and (max-width: 450px) {
-    .head-xl {
-      font-size: 30px;
-      line-height: 37px;
       letter-spacing: 0em;
       text-align: center; } }
 
@@ -212,10 +189,6 @@ body {
   line-height: 26px;
   letter-spacing: 0em;
   text-align: left; }
-  @media only screen and (max-width: 450px) {
-    .para-2 {
-      font-size: 13px;
-      line-height: 20px; } }
 
 .para-sm {
   font-family: Lato;
@@ -228,9 +201,22 @@ body {
   text-transform: uppercase;
   color: #999999; }
 
+.head-xl {
+  font-family: Helvetica;
+  font-size: 48px;
+  line-height: 52px;
+  letter-spacing: 0em;
+  text-align: center; }
+  @media only screen and (max-width: 450px) {
+    .head-xl {
+      font-size: 30px;
+      line-height: 37px;
+      letter-spacing: 0em;
+      text-align: center; } }
+
 .head-1 {
   font-family: Helvetica;
-  font-size: 41px;
+  font-size: 56px;
   font-style: normal;
   font-weight: 700;
   line-height: 51px;
@@ -244,7 +230,7 @@ body {
       text-align: center; } }
 
 .head-2 {
-  font-family: Helvetica;
+  font-family: Lato;
   font-size: 32px;
   font-style: normal;
   font-weight: 700;
@@ -261,7 +247,7 @@ body {
       text-align: center; } }
 
 .head-3 {
-  font-family: Helvetica;
+  font-family: Lato;
   font-size: 26px;
   font-style: normal;
   font-weight: 700;
@@ -277,8 +263,8 @@ body {
       text-align: center; } }
 
 .head-4 {
-  font-family: Helvetica;
-  font-size: 26px;
+  font-family: Lato;
+  font-size: 23px;
   font-style: normal;
   font-weight: 700;
   line-height: 34px;
@@ -291,41 +277,37 @@ body {
 
 .head-5 {
   font-family: Lato;
-  font-size: 18px;
+  font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 26px;
   letter-spacing: 0em;
   text-align: left; }
-  @media only screen and (max-width: 450px) {
-    .head-5 {
-      font-size: 13px;
-      line-height: 20px;
-      text-align: center; } }
 
 .head-6 {
-  font-family: Helvetica;
+  font-family: Lato;
   font-size: 18px;
   line-height: 21px;
   letter-spacing: 0em;
   text-align: left; }
-  @media only screen and (max-width: 450px) {
-    .head-6 {
-      font-size: 16px;
-      line-height: 18px; } }
 
 .head-7 {
-  font-family: Helvetica;
+  font-family: Lato;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
   line-height: 21px;
   letter-spacing: 0em;
   text-align: left; }
-  @media only screen and (max-width: 450px) {
-    .head-7 {
-      font-size: 16px;
-      line-height: 16px; } }
+
+.head-sub {
+  font-family: Lato;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left; }
 
 .head-sm {
   font-family: Lato;
@@ -344,12 +326,7 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: 21px;
-  letter-spacing: -0.01em;
   text-align: left; }
-  @media only screen and (max-width: 450px) {
-    .para {
-      font-size: 12px;
-      line-height: 18px; } }
 
 .head-footer {
   font-family: Helvetica;
@@ -360,7 +337,7 @@ body {
   @media only screen and (max-width: 450px) {
     .head-footer {
       font-family: Helvetica;
-      font-size: 12px;
+      font-size: 14px;
       line-height: 16px;
       letter-spacing: 0em;
       text-align: left;
@@ -388,6 +365,12 @@ body {
 .color-white {
   color: #fff; }
 
+.color-yellow {
+  color: #fad236; }
+
+#svg-footer {
+  fill: white; }
+
 .bg-cream {
   background-color: #fff1e0; }
 
@@ -395,7 +378,7 @@ body {
   background: #fff4e6; }
 
 .bg-black {
-  background-color: black; }
+  background-color: #404040; }
 
 .bg-blue {
   background-color: var(--color-light-blue); }
@@ -406,6 +389,9 @@ body {
 .bg-light-pink {
   background: #fff4fd; }
 
+.bg-darkpink {
+  background: #ff7a7a; }
+
 .bg-dark-blue {
   background-color: #2b377a; }
 
@@ -414,6 +400,13 @@ body {
 
 .bg-grey {
   background: #f5f5f5; }
+
+.bg-white {
+  background: white; }
+
+.hover-color:hover {
+  color: #fad236;
+  text-decoration: none; }
 
 .shadow-blue {
   box-shadow: 10px -10px 1px #e8f0fd; }
@@ -437,11 +430,8 @@ body {
 .a-reset {
   text-decoration: none;
   color: inherit; }
-  .a-reset :hover,
-  .a-reset :before,
-  .a-reset :after {
-    text-decoration: none;
-    color: black; }
+  .a-reset:hover, .a-reset:before, .a-reset:after {
+    color: inherit; }
 
 .flatic::before {
   font-size: 2rem;
@@ -461,14 +451,11 @@ hr {
   margin: 0; }
 
 .container {
-  min-width: 85vw; }
+  min-width: 80vw; }
 
 .dropdown:hover .dropdown-menu {
   display: block;
   margin-top: 0; }
-
-.hr-dotted {
-  border-top: 2px dotted grey; }
 
 .default-hr {
   margin: auto;
@@ -499,6 +486,9 @@ hr {
   vertical-align: middle;
   font-size: 1.4rem; }
 
+.icon-3 {
+  font-size: 1rem; }
+
 .grid {
   display: grid;
   grid-auto-rows: 1fr; }
@@ -514,3 +504,12 @@ hr {
     .grid-2 {
       display: inline-block;
       grid-row: 1fr; } }
+
+width-65 {
+  width: 65%; }
+
+.width-15 {
+  width: 13%; }
+  @media only screen and (max-width: 450px) {
+    .width-15 {
+      width: 40%; } }
