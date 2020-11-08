@@ -1,5 +1,56 @@
-// buttons
+// logo
+.logo {
+  width: 150px;
+  height: auto;
+  margin-right: 1rem;
+  @media only screen and (max-width: 450px) {
+    max-width: 35vw;
+  }
+}
 
+// mobile menu
+@media (max-width: 992px) {
+  .mobileMenu {
+    background: #041227;
+    width: 75vw;
+    transform: translateX(-100%);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    left: 0;
+    z-index: 10000;
+    transition: all ease 0.25s;
+    &.onRight {
+      left: auto;
+      right: 0;
+      transform: translateX(100%);
+    }
+    &.open {
+      transform: translateX(0%);
+    }
+
+    .navbar-nav {
+      overflow-y: auto;
+    }
+  }
+  .overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+    &.open {
+      display: block;
+      z-index: 1029;
+    }
+  }
+}
+
+// buttons
 .btn-pd {
   padding: 0.5rem 1.5rem;
 }

@@ -28,6 +28,47 @@ body {
     body {
       font-size: 13px; } }
 
+.logo {
+  width: 150px;
+  height: auto;
+  margin-right: 1rem; }
+  @media only screen and (max-width: 450px) {
+    .logo {
+      max-width: 35vw; } }
+
+@media (max-width: 992px) {
+  .mobileMenu {
+    background: #041227;
+    width: 75vw;
+    transform: translateX(-100%);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    left: 0;
+    z-index: 10000;
+    transition: all ease 0.25s; }
+    .mobileMenu.onRight {
+      left: auto;
+      right: 0;
+      transform: translateX(100%); }
+    .mobileMenu.open {
+      transform: translateX(0%); }
+    .mobileMenu .navbar-nav {
+      overflow-y: auto; }
+  .overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none; }
+    .overlay.open {
+      display: block;
+      z-index: 1029; } }
+
 .btn-pd {
   padding: 0.5rem 1.5rem; }
 
@@ -365,6 +406,9 @@ body {
 .color-white {
   color: #fff; }
 
+.color-dark-white {
+  color: rgba(255, 255, 255, 0.65); }
+
 .color-yellow {
   color: #fad236; }
 
@@ -447,19 +491,12 @@ body {
     padding-left: 10px;
     padding-right: 10px; } }
 
-hr {
-  margin: 0; }
-
 .container {
   min-width: 80vw; }
 
 .dropdown:hover .dropdown-menu {
   display: block;
   margin-top: 0; }
-
-.default-hr {
-  margin: auto;
-  display: block; }
 
 .position {
   margin-top: 110px;
