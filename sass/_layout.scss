@@ -21,18 +21,6 @@
   margin-top: 0;
 }
 
-.position {
-  margin-top: 110px;
-  margin-left: 115px;
-  z-index: 2000;
-  position: relative;
-
-  @media only screen and (max-width: 450px) {
-    margin: 0;
-    min-width: 90wv;
-  }
-}
-
 .padding-y {
   padding-top: 0.7rem;
   padding-bottom: 0.7rem;
@@ -75,7 +63,7 @@
   }
 }
 
-width-65 {
+.width-65 {
   width: 65%;
 }
 
@@ -85,4 +73,8 @@ width-65 {
   @media only screen and (max-width: 450px) {
     width: 40%;
   }
+}
+
+.line-ht {
+  line-height: 32px;
 }

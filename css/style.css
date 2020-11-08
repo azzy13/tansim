@@ -182,65 +182,16 @@ body {
   letter-spacing: 0em;
   text-align: left; }
 
-.head-footer-1 {
-  font-family: Helvetica;
-  font-size: 44px;
-  line-height: 52px;
-  letter-spacing: 0em;
-  text-align: center; }
-  @media only screen and (max-width: 450px) {
-    .head-footer-1 {
-      font-family: Helvetica;
-      font-size: 20px;
-      line-height: 28px;
-      letter-spacing: 0em;
-      text-align: center; } }
-
 .head-lg {
-  font-family: Helvetica;
-  font-size: 30px;
+  font-family: Lato;
+  font-size: 40px;
   line-height: 36px; }
   @media only screen and (max-width: 450px) {
     .head-lg {
-      font-family: Helvetica;
       font-size: 24px;
       line-height: 28px;
       letter-spacing: 0em;
       text-align: left; } }
-
-.head-md {
-  font-family: Helvetica;
-  font-size: 20px;
-  line-height: 27px;
-  letter-spacing: 0em;
-  text-align: left; }
-  @media only screen and (max-width: 450px) {
-    .head-md {
-      font-family: Helvetica;
-      font-size: 16px;
-      line-height: 20px;
-      letter-spacing: 0em;
-      text-align: left; } }
-
-.para-2 {
-  font-family: Lato;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 26px;
-  letter-spacing: 0em;
-  text-align: left; }
-
-.para-sm {
-  font-family: Lato;
-  font-size: 12px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 14px;
-  letter-spacing: 0.04em;
-  text-align: left;
-  text-transform: uppercase;
-  color: #999999; }
 
 .head-xl {
   font-family: Helvetica;
@@ -256,7 +207,7 @@ body {
       text-align: center; } }
 
 .head-1 {
-  font-family: Helvetica;
+  font-family: Lato;
   font-size: 56px;
   font-style: normal;
   font-weight: 700;
@@ -281,7 +232,7 @@ body {
   color: #6264ba; }
   @media only screen and (max-width: 450px) {
     .head-2 {
-      font-family: Helvetica;
+      font-family: Lato;
       font-size: 24px;
       line-height: 30px;
       letter-spacing: 0em;
@@ -297,7 +248,7 @@ body {
   text-align: left; }
   @media only screen and (max-width: 450px) {
     .head-3 {
-      font-family: Helvetica;
+      font-family: Lato;
       font-size: 24px;
       line-height: 30px;
       letter-spacing: 0em;
@@ -305,16 +256,12 @@ body {
 
 .head-4 {
   font-family: Lato;
-  font-size: 23px;
+  font-size: 24px;
   font-style: normal;
   font-weight: 700;
   line-height: 34px;
   letter-spacing: 0em;
   text-align: left; }
-  @media only screen and (max-width: 450px) {
-    .head-4 {
-      font-size: 16px;
-      line-height: 20px; } }
 
 .head-5 {
   font-family: Lato;
@@ -384,6 +331,26 @@ body {
       text-align: left;
       font-weight: 200; } }
 
+.para-2 {
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left; }
+
+.para-sm {
+  font-family: Lato;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 14px;
+  letter-spacing: 0.04em;
+  text-align: left;
+  text-transform: uppercase;
+  color: #999999; }
+
 .greyscale {
   -webkit-filter: grayscale(100%);
   /* Safari 6.0 - 9.0 */
@@ -411,6 +378,9 @@ body {
 
 .color-yellow {
   color: #fad236; }
+
+.color-grey {
+  color: #999; }
 
 #svg-footer {
   fill: white; }
@@ -498,16 +468,6 @@ body {
   display: block;
   margin-top: 0; }
 
-.position {
-  margin-top: 110px;
-  margin-left: 115px;
-  z-index: 2000;
-  position: relative; }
-  @media only screen and (max-width: 450px) {
-    .position {
-      margin: 0;
-      min-width: 90wv; } }
-
 .padding-y {
   padding-top: 0.7rem;
   padding-bottom: 0.7rem; }
@@ -542,7 +502,7 @@ body {
       display: inline-block;
       grid-row: 1fr; } }
 
-width-65 {
+.width-65 {
   width: 65%; }
 
 .width-15 {
@@ -550,3 +510,6 @@ width-65 {
   @media only screen and (max-width: 450px) {
     .width-15 {
       width: 40%; } }
+
+.line-ht {
+  line-height: 32px; }

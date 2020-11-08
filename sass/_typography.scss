@@ -7,78 +7,17 @@
   text-align: left;
 }
 
-// About
-.head-footer-1 {
-  font-family: Helvetica;
-  font-size: 44px;
-  line-height: 52px;
-  letter-spacing: 0em;
-  text-align: center;
-
-  @media only screen and (max-width: 450px) {
-    font-family: Helvetica;
-    font-size: 20px;
-    line-height: 28px;
-    letter-spacing: 0em;
-    text-align: center;
-  }
-}
-
 .head-lg {
-  font-family: Helvetica;
-  font-size: 30px;
+  font-family: Lato;
+  font-size: 40px;
   line-height: 36px;
 
   @media only screen and (max-width: 450px) {
-    font-family: Helvetica;
     font-size: 24px;
     line-height: 28px;
     letter-spacing: 0em;
     text-align: left;
   }
-}
-
-.head-md {
-  font-family: Helvetica;
-  font-size: 20px;
-  line-height: 27px;
-  letter-spacing: 0em;
-  text-align: left;
-
-  @media only screen and (max-width: 450px) {
-    font-family: Helvetica;
-    font-size: 16px;
-    line-height: 20px;
-    letter-spacing: 0em;
-    text-align: left;
-  }
-}
-
-.para-2 {
-  font-family: Lato;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 26px;
-  letter-spacing: 0em;
-  text-align: left;
-
-  // @media only screen and (max-width: 450px) {
-  //   font-size: 13px;
-  //   line-height: 20px;
-  // }
-}
-
-.para-sm {
-  font-family: Lato;
-  font-size: 12px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 14px;
-  letter-spacing: 0.04em;
-  text-align: left;
-  text-transform: uppercase;
-  color: #999999;
 }
 
 // Home
@@ -98,7 +37,7 @@
 }
 
 .head-1 {
-  font-family: Helvetica;
+  font-family: Lato;
   font-size: 56px;
   font-style: normal;
   font-weight: 700;
@@ -125,7 +64,7 @@
   color: #6264ba;
 
   @media only screen and (max-width: 450px) {
-    font-family: Helvetica;
+    font-family: Lato;
     font-size: 24px;
     line-height: 30px;
     letter-spacing: 0em;
@@ -143,7 +82,7 @@
   text-align: left;
 
   @media only screen and (max-width: 450px) {
-    font-family: Helvetica;
+    font-family: Lato;
     font-size: 24px;
     line-height: 30px;
     letter-spacing: 0em;
@@ -153,17 +92,17 @@
 
 .head-4 {
   font-family: Lato;
-  font-size: 23px;
+  font-size: 24px;
   font-style: normal;
   font-weight: 700;
   line-height: 34px;
   letter-spacing: 0em;
   text-align: left;
 
-  @media only screen and (max-width: 450px) {
-    font-size: 16px;
-    line-height: 20px;
-  }
+  // @media only screen and (max-width: 450px) {
+  //   font-size: 16px;
+  //   line-height: 20px;
+  // }
 }
 
 .head-5 {
@@ -261,4 +200,31 @@
     text-align: left;
     font-weight: 200;
   }
+}
+
+.para-2 {
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+
+  // @media only screen and (max-width: 450px) {
+  //   font-size: 13px;
+  //   line-height: 20px;
+  // }
+}
+
+.para-sm {
+  font-family: Lato;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 14px;
+  letter-spacing: 0.04em;
+  text-align: left;
+  text-transform: uppercase;
+  color: #999999;
 }
