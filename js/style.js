@@ -1,9 +1,5 @@
 // For card shadow
 $(document).ready(function () {
-  $('.mobileMenu>div>div>button>i').on('click', function () {
-    $('.mobileMenu').collapse('hide');
-  });
-
   var fixHeight = function () {
     $('.navbar-nav').css(
       'max-height',
@@ -17,8 +13,8 @@ $(document).ready(function () {
   $('.navbar .navbar-toggler').on('click', function () {
     fixHeight();
   });
-  $('.navbar-toggler, .overlay').on('click', function () {
-    $('.mobileMenu, .overlay').toggleClass('open');
+  $('.navbar-toggler, .overlay, .close1').on('click', function () {
+    $('.mobileMenu, .overlay, .close1').toggleClass('open');
   });
 
   $('#ideation').click();

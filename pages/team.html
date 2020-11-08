@@ -39,20 +39,28 @@
       <nav class="navbar navbar-expand-lg navbar-light border-bottom">
         <div class="container">
           <a class="navbar-brand" href="#">
-            <img src="../assets/logo.png" alt="logo" />
+            <img
+              src="../assets/gov_logo.png"
+              class="img-fluid bg-white border-0 d-inline w-25"
+              alt="logo-1"
+            />
+            <img
+              src="../assets/logo.png"
+              class="img-fluid p-lg-1 d-inline logo"
+              alt="logo"
+            />
           </a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
+          <div class="d-flex align-items-center justify-content-center">
+            <span><i class="far fa-bell d-lg-none d-block icon p-1"></i></span>
+            <span
+              ><i class="fas fa-share-alt d-lg-none d-block icon p-2"></i
+            ></span>
+            <button class="navbar-toggler border-0 p-1" type="button">
+              <span class="navbar-toggler-icon p-1"></span>
+            </button>
+          </div>
 
+          <!-- desktop nav -->
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
               <li class="nav-item dropdown mr-1">
@@ -68,10 +76,13 @@
                   About
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="#">Action</a>
-                  <a class="dropdown-item" href="#">Another action</a>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="#">Something else here</a>
+                  <a class="dropdown-item" href="../pages/tansim.html"
+                    >Startup TN</a
+                  >
+                  <a class="dropdown-item" href="../pages/team.html">Team</a>
+                  <a class="dropdown-item" href="../pages/contact-us.html"
+                    >Contact Us</a
+                  >
                 </div>
               </li>
               <li class="nav-item dropdown mr-1">
@@ -84,7 +95,7 @@
                   aria-haspopup="true"
                   aria-expanded="false"
                 >
-                  For Startups
+                  Startups
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
                   <a class="dropdown-item" href="#">Action</a>
@@ -94,23 +105,7 @@
                 </div>
               </li>
               <li class="nav-item dropdown mr-1">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  id="navbarDropdown3"
-                  role="button"
-                  data-toggle="dropdown"
-                  aria-haspopup="true"
-                  aria-expanded="false"
-                >
-                  For Enabler
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown3">
-                  <a class="dropdown-item" href="#">Action</a>
-                  <a class="dropdown-item" href="#">Another action</a>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="#">Something else here</a>
-                </div>
+                <a class="nav-link" href="#" role="button"> Enablers </a>
               </li>
               <li class="nav-item dropdown mr-1">
                 <a
@@ -131,12 +126,50 @@
                   <a class="dropdown-item" href="#">Something else here</a>
                 </div>
               </li>
+
+              <li class="nav-item dropdown mr-1">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown3"
+                  role="button"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  Support
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown3">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+              </li>
+
               <li>
                 <a href="#" class="btn d-sm-none d-sm-block d-none">
                   <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
                 </a>
               </li>
             </ul>
+
+            <li class="nav-item dropdown mr-1 list-unstyled">
+              <a
+                class="nav-link dropdown-toggle a-reset"
+                href="#"
+                id="navbarDropdown5"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                English
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown5">
+                <a class="dropdown-item" href="#">Tamil</a>
+              </div>
+            </li>
             <button
               type="button"
               class="btn btn-pd btn-light mr-2 btn-custom-3"
@@ -148,7 +181,77 @@
             </button>
           </div>
         </div>
+        <!-- Mobile nav -->
+        <div
+          class="collapse p-3 p-lg-0 mt-lg-0 d-flex flex-column d-sm-none mobileMenu onRight"
+          id="navbarSupportedContent"
+        >
+          <div class="container-fluid w-100 d-flex flex-column d-md-none">
+            <div
+              class="container-fluid d-flex align-items-center justify-content-space-between p-0"
+            >
+              <button type="button" class="btn close1 ml-n3" aria-label="Close">
+                <i aria-hidden="true" class="fas fa-times text-white"></i>
+              </button>
+
+              <a href="#!" class=""><span class="para">Login &rarr;</span></a>
+            </div>
+            <div class="pt-4 w-100 d-flex flex-column justify-content-left">
+              <h1 class="text-white para-2 text-left mb-0">About</h1>
+              <div class="color-dark-white para-2">
+                <a class="pl-3 pb-2 a-reset" href="../pages/tansim.html"
+                  >Startup TN</a
+                >
+              </div>
+              <div class="color-dark-white para-2">
+                <a class="pl-3 pb-2 a-reset" href="../pages/team.html">Team</a>
+              </div>
+              <div class="color-dark-white para-2">
+                <a class="pl-3 pb-2 a-reset" href="../pages/contact-us.html"
+                  >Contact us</a
+                >
+              </div>
+
+              <h1 class="text-white para-2 text-left mb-0">Startups</h1>
+              <div class="color-dark-white para-2">
+                <a class="pl-3 pb-2 a-reset" href="/startups/overview"
+                  >Overview</a
+                >
+              </div>
+              <div class="color-dark-white para-2">
+                <a class="pl-3 pb-2 a-reset" href="/deals"
+                  >Deals &amp; Services</a
+                >
+              </div>
+
+              <div class="color-dark-white para-2">
+                <h1 class="text-white para-2 text-left mb-0">Enablers</h1>
+              </div>
+              <div class="color-dark-white para-2">
+                <h1 class="text-white para-2 text-left mb-0">Ecosystem</h1>
+                <div class="color-dark-white para-2">
+                  <a class="pl-3 pb-2 a-reset" href="/ecosystem"
+                    >Explore TN Ecosystem</a
+                  >
+                </div>
+                <div class="color-dark-white para-2">
+                  <a class="pl-3 pb-2 a-reset" href="/events">Events</a>
+                </div>
+              </div>
+              <div class="color-dark-white para-2">
+                <h1 class="text-white para-2 text-left mb-0">Support</h1>
+                <div class="color-dark-white para-2">
+                  <a class="pl-3 pb-2 a-reset" href="#!">FAQ</a>
+                </div>
+                <div class="color-dark-white para-2">
+                  <a class="pl-3 pb-2 a-reset" href="#!">Raise A Ticket</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </nav>
+      <div class="overlay"></div>
     </header>
 
     <!-- Content -->
@@ -365,7 +468,7 @@
 
     <!-- footer -->
     <footer>
-      <div class="bg-black">
+      <div class="bg-black mt-3">
         <div class="container">
           <div class="row py-4 d-flex mx-auto align-items-center">
             <div class="col d-flex text-center">
