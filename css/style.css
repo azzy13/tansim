@@ -182,6 +182,15 @@ body {
   letter-spacing: 0em;
   text-align: left; }
 
+.head-md-1 {
+  font-family: Helvetica;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left; }
+
 .head-lg {
   font-family: Lato;
   font-size: 40px;
@@ -351,6 +360,11 @@ body {
   text-transform: uppercase;
   color: #999999; }
 
+::placeholder {
+  color: lightgrey !important;
+  font-weight: 100 !important;
+  font-size: 14px !important; }
+
 .greyscale {
   -webkit-filter: grayscale(100%);
   /* Safari 6.0 - 9.0 */
@@ -406,7 +420,8 @@ body {
 .bg-darkpink {
   background: #ff7a7a; }
 
-.bg-dark-blue {
+.bg-dark-blue,
+.bg-primary {
   background-color: #2b377a; }
 
 .bg-yellow {
@@ -450,6 +465,14 @@ body {
 .flatic::before {
   font-size: 2rem;
   width: 200px; }
+
+.no-underline {
+  text-decoration: none; }
+  .no-underline:hover {
+    text-decoration: none; }
+
+.hover-black:hover {
+  color: black; }
 
 @media only screen and (max-width: 450px) {
   .card {
@@ -519,3 +542,15 @@ body {
 
 .line-ht-bg {
   line-height: 40px; }
+
+.fullsc {
+  min-height: 100vh; }
+
+.pt15 {
+  padding-top: 15vh; }
+
+.pb15 {
+  padding-bottom: 15vh; }
+
+.overflow-hidden {
+  overflow: hidden; }

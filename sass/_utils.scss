@@ -72,7 +72,8 @@
   background: #ff7a7a;
 }
 
-.bg-dark-blue {
+.bg-dark-blue,
+.bg-primary {
   background-color: #2b377a;
 }
 
@@ -135,4 +136,19 @@
 .flatic::before {
   font-size: 2rem;
   width: 200px;
+}
+
+.no-underline {
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+// hover
+.hover-black {
+  &:hover {
+    color: black;
+  }
 }
