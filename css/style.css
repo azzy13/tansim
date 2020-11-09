@@ -505,6 +505,9 @@ body {
 .width-65 {
   width: 65%; }
 
+.width-40 {
+  width: 40%; }
+
 .width-15 {
   width: 13%; }
   @media only screen and (max-width: 450px) {
@@ -513,3 +516,6 @@ body {
 
 .line-ht {
   line-height: 32px; }
+
+.line-ht-bg {
+  line-height: 40px; }
