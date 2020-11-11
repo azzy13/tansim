@@ -89,6 +89,10 @@
 
 .fullsc {
   min-height: 100vh;
+  @media only screen and (max-width: 450px) {
+    max-height: 100vh;
+    min-height: 0;
+  }
 }
 
 .pt15 {
@@ -97,6 +101,17 @@
 
 .pb15 {
   padding-bottom: 15vh;
+}
+
+.width75 {
+  max-width: 75%;
+}
+
+.letter-sp {
+  letter-spacing: 2.5rem;
+  @media only screen and (max-width: 450px) {
+    letter-spacing: 0.8rem;
+  }
 }
 
 .overflow-hidden {

@@ -175,6 +175,18 @@ body {
   width: 100%;
   position: absolute; }
 
+.verify-box {
+  border-radius: 0;
+  font-size: 42px;
+  color: var(--color-primary); }
+  .verify-box:focus {
+    border-color: inherit;
+    box-shadow: none;
+    color: var(--color-primary); }
+  @media only screen and (max-width: 450px) {
+    .verify-box {
+      font-size: 16px; } }
+
 .head-md-2 {
   font-family: Helvetica;
   font-size: 24px;
@@ -545,12 +557,25 @@ body {
 
 .fullsc {
   min-height: 100vh; }
+  @media only screen and (max-width: 450px) {
+    .fullsc {
+      max-height: 100vh;
+      min-height: 0; } }
 
 .pt15 {
   padding-top: 15vh; }
 
 .pb15 {
   padding-bottom: 15vh; }
+
+.width75 {
+  max-width: 75%; }
+
+.letter-sp {
+  letter-spacing: 2.5rem; }
+  @media only screen and (max-width: 450px) {
+    .letter-sp {
+      letter-spacing: 0.8rem; } }
 
 .overflow-hidden {
   overflow: hidden; }

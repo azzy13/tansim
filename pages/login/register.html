@@ -111,9 +111,9 @@
 
           <div class="mt-auto pb15">
             <div class="text-center d-inline head-6 color-white">
-              Don't have an account?
-              <a class="a-reset cursor color-white" href="./register.html"
-                ><u>Signup</u></a
+              Have an account?
+              <a class="a-reset cursor color-white" href="./login.html"
+                ><u>Login</u></a
               >
             </div>
           </div>
@@ -133,8 +133,10 @@
           </a>
 
           <div class="col-10">
-            <h1 class="head-md-2 font-weight-bold">Login</h1>
-            <h2 class="color-grey head-md-1 pb-3">Hello there! Welcome Back</h2>
+            <h1 class="head-md-2 font-weight-bold pb-lg-4 pb-3">
+              Sign up for an account today.
+            </h1>
+
             <form>
               <div class="form-group">
                 <input
@@ -159,17 +161,42 @@
                 />
                 <div class="invalid-feedback">Please enter your password.</div>
               </div>
-              <div class="invalid-feedback">
-                Incorrect username or password.
+              <div class="form-group">
+                <input
+                  type="password"
+                  class="form-control form-control-lg"
+                  placeholder="Confirm Password"
+                  name="password"
+                  autocomplete="new password"
+                  value=""
+                  required
+                />
+                <div class="invalid-feedback">Password does not match.</div>
               </div>
-              <div class="mt-n2 pb-5 float-right">
-                <a class="" href="./forgot-password">Forgot Password?</a>
+              <div class="form-group">
+                <input
+                  type="text"
+                  class="form-control form-control-lg"
+                  placeholder="Mobile Number"
+                  name="Number"
+                  value=""
+                  required
+                  onkeypress="return event.charCode >= 48 && event.charCode <= 57"
+                  data-validation="number"
+                  maxlength="10"
+                />
+                <div class="invalid-feedback">
+                  Please enter your phone number
+                </div>
               </div>
+
               <button
                 type="submit"
-                class="btn btn-lg py-3 btn-primary bg-dark-blue btn-block text-uppercase color-white"
+                class="btn btn-lg py-lg-3 py-3 btn-primary bg-dark-blue btn-block text-uppercase color-white"
               >
-                <p class="head-6 text-center align-center mb-0">Login</p>
+                <p class="head-6 text-center align-center mb-0">
+                  Create your account
+                </p>
               </button>
               <p class="para pt-4">
                 By Signing up, you agree to the
