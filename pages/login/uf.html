@@ -1,3 +1,30 @@
+<div class="select-card">
+  <div class="select-category">
+    <input name="option" id="opt_0" type="radio" value="1" /><label for="opt_0"
+      ><p><span>Individual</span>These are organizations that have idea only</p>
+      <i></i
+    ></label>
+  </div>
+  <div class="select-category">
+    <input name="option" id="opt_1" type="radio" value="2" /><label for="opt_1"
+      ><p>
+        <span>Start Up</span>These are the startups that have implemented ideas
+        and have working product
+      </p>
+      <i></i
+    ></label>
+  </div>
+  <div class="select-category">
+    <input name="option" id="opt_2" type="radio" value="3" /><label for="opt_2"
+      ><p>
+        <span>Certified Start Up</span>These are the startups that have been
+        certified by the government
+      </p>
+      <i></i
+    ></label>
+  </div>
+</div>
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -142,18 +169,70 @@
               </fieldset>
               <h1 class="head-md-2 pt-4 font-weight-bold">Select a Sector</h1>
               <div class="radios">
-                <input type="radio" name="rGroup" value="1" id="r1" checked="checked" />
-                <label class="radio" for="r1">
-                  <i class="far fa-check-circle p-1 icon border-grey"></i>
-                </label>
+                <div class="card mb-3 card-hover-sm">
+                  <div
+                   
+                    class="card-body col-lg-7 py-4 pb-5"
+                  >
+                    
+                    <div class="form-check d-flex pl-0">
+                      <input type="radio" name="rGroup" value="1" id="r1" checked="checked" />
+                      <label class="radio" for="r1">
+                        <i type="radio" class="far fa-check-circle p-1 icon border-grey"></i>
+                      </label>
+                     
+                      <div class="pl-lg-2 pl-1">
+                        <h5 class="card-title head-md-1 mb-2 pl-2 font-weight-bold">Start Up</h5>
+                        <p class="card-text pl-2 d-flex flex-column head-5">
+                          This is the startup category
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card mb-3 card-hover-sm">
+                  <div
+                   
+                    class="card-body col-lg-7 py-4 pb-5"
+                  >
+                    
+                    <div class="form-check d-flex pl-0">
+                      <input type="radio" name="rGroup" value="1" id="r1" checked="checked" />
+                      <label class="radio" for="r1">
+                        <i type="radio" class="far fa-check-circle p-1 icon border-grey"></i>
+                      </label>
+                      <div class="pl-lg-2 pl-1">
+                        <h5 class="card-title head-md-1 mb-2 pl-2 font-weight-bold">Enablers</h5>
+                        <p class="card-text pl-2 d-flex flex-column head-5">
+                          This is the enablers category
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <a class="a-reset cursor no-underline card mb-3 card-hover-sm" href="./service-providers.html">
+                  <div
+                   
+                    class="card-body col-lg-7 py-4 pb-5"
+                  >
+                    
+                    <div class="form-check d-flex pl-0">
+                      <i class="far fa-check-circle p-1 icon border-grey"></i>
+                      <div class="pl-lg-2 pl-1">
+                        <h5 class="card-title head-md-1 mb-2 pl-2 font-weight-bold">Service Providers</h5>
+                        <p class="card-text pl-2 d-flex flex-column head-5">
+                          This is the service providers category
+                        </p>
+                      </div>
+                    </div>
+
+                  </div>
+                </a>
                 
-                <input type="radio" name="rGroup" value="2" id="r2" />
-                <label class="radio" for="r2"></label>
-                
-                <input type="radio" name="rGroup" value="3" id="r3" />
-                <label class="radio" for="r3"></label>
+                <p class="para">
+                  *Startups Registered/Headquartered/Operating in Tamil Nadu are eligible to register with us
+                </p>
             </div>
-            
               <a href="!#" class="a-reset cursor float-right pt-1 no-underline"> <h1 class="head-7">Next ></h1> </a>
               </button>
             </form>

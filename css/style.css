@@ -586,3 +586,16 @@ body {
 
 .overflow-hidden {
   overflow: hidden; }
+
+.radios .radio {
+  background-color: #c5e043;
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  cursor: pointer; }
+
+.radios input[type='radio'] {
+  display: none; }
+
+.radios input[type='radio']:checked + .radio {
+  background-color: var(--color-primary); }
