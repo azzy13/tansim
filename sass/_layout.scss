@@ -88,7 +88,7 @@
 }
 
 .fullsc {
-  min-height: 100vh;
+  height: 100vh;
   @media only screen and (max-width: 450px) {
     max-height: 100vh;
     min-height: 0;
@@ -97,6 +97,12 @@
 
 .pt15 {
   padding-top: 15vh;
+}
+
+.ptsm-5 {
+  @media only screen and (max-width: 450px) {
+    padding-top: 5vh;
+  }
 }
 
 .pb15 {

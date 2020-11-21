@@ -18,6 +18,14 @@ $(document).ready(function () {
   });
 
   $('#ideation').click();
+  $('.card-hover-sm').hover(
+    function () {
+      $(this).addClass('shadow').css('cursor', 'pointer');
+    },
+    function () {
+      $(this).removeClass('shadow');
+    },
+  );
   $('.card-hover').hover(
     function () {
       $(this).addClass('shadow-lg').css('cursor', 'pointer');
