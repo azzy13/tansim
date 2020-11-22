@@ -111,25 +111,23 @@
               Categorize yourself to avail targeted benefits
             </p>
           </div>
-
-  
         </div>
 
         <!-- right container -->
         <div
           class="col-lg-7 col-11 d-flex align-items-center flex-column fullsc p-0 m-0 overflow-auto"
         >
-        <a
-        href="/"
-        class="a-reset cursor head-6 align-self-end mr-5 pt-lg-5 pt-4 pb-lg-5 pb-4 no-underline"
-      >
-        <i class="fas fa-times color-grey hover-black">
-          <p class="head-6 color-grey d-inline hover-black">Close</p>
-        </i>
-      </a>
+          <a
+            href="/"
+            class="a-reset cursor head-6 align-self-end mr-5 pt-lg-5 pt-4 pb-lg-5 pb-4 no-underline"
+          >
+            <i class="fas fa-times color-grey hover-black">
+              <p class="head-6 color-grey d-inline hover-black">Close</p>
+            </i>
+          </a>
           <div class="col-9">
             <h1 class="head-md-2 font-weight-bold">Select a State</h1>
-            <form>
+            <form class="formSubmit">
               <fieldset>
                 <div class="form-group">
                   <select
@@ -141,20 +139,41 @@
                 </div>
               </fieldset>
               <h1 class="head-md-2 pt-4 font-weight-bold">Select a Sector</h1>
-              <div class="radios">
-                <input type="radio" name="rGroup" value="1" id="r1" checked="checked" />
-                <label class="radio" for="r1">
-                  <i class="far fa-check-circle p-1 icon border-grey"></i>
-                </label>
-                
-                <input type="radio" name="rGroup" value="2" id="r2" />
-                <label class="radio" for="r2"></label>
-                
-                <input type="radio" name="rGroup" value="3" id="r3" />
-                <label class="radio" for="r3"></label>
-            </div>
-            
-              <a href="!#" class="a-reset cursor float-right pt-1 no-underline"> <h1 class="head-7">Next ></h1> </a>
+
+              <input
+                type="radio"
+                class="radio"
+                name="rGroup"
+                value="1"
+                id="r1"
+              />
+              <label for="r1"> </label>
+
+              <input
+                type="radio"
+                class="radio"
+                name="rGroup"
+                value="2"
+                id="r2"
+              />
+              <label for="r2"></label>
+
+              <input
+                type="radio"
+                class="radio"
+                name="rGroup"
+                value="3"
+                id="r3"
+              />
+              <label for="r3"></label>
+              <button
+                type="submit"
+                name="btn"
+                id="btn"
+                class="reset-btn head-6"
+                value="submit"
+              >
+                Next >
               </button>
             </form>
           </div>
@@ -172,5 +191,5 @@
     integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
     crossorigin="anonymous"
   ></script>
-  <script src="../../js/registration.js"></script>
+  <script src="../../js/sector.js"></script>
 </html>

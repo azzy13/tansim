@@ -198,3 +198,34 @@
     font-size: 16px;
   }
 }
+
+// Radio
+
+input[type='radio'].radio {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+input[type='radio'].radio + label:before {
+  font-family: FontAwesome;
+  display: inline-block;
+  content: '\f058';
+  letter-spacing: 10px;
+  font-size: 1.2em;
+  color: #535353;
+}
+
+input[type='radio'].radio:checked + label:before {
+  content: '\f058';
+  font-size: 1.2em;
+  color: var(--color-primary);
+  letter-spacing: 5px;
+  width: 35px;
+  font-weight: bold;
+}
