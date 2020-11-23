@@ -90,8 +90,7 @@
 .fullsc {
   height: 100vh;
   @media only screen and (max-width: 450px) {
-    max-height: 100vh;
-    min-height: 0;
+    height: auto;
   }
 }
 

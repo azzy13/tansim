@@ -40,6 +40,19 @@
   color: #999;
 }
 
+.color-blue {
+  background: #609fff;
+}
+
+.color-grey2 {
+  color: #b4b3b3;
+}
+
+.color-greydark,
+.bg-greydark {
+  background-color: #4f4e4e;
+}
+
 #svg-footer {
   fill: white;
 }
@@ -123,6 +136,9 @@
 
 .dashed {
   border-style: dashed;
+  border-width: 1px;
+  border-color: #b4b3b3;
+  border-radius: 5px;
 }
 
 // misc

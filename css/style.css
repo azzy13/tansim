@@ -203,7 +203,7 @@ input[type='radio'].radio + label:before {
   content: '\f058';
   letter-spacing: 10px;
   font-size: 1.2em;
-  color: #535353; }
+  color: #dbdbdb; }
 
 input[type='radio'].radio:checked + label:before {
   content: '\f058';
@@ -212,6 +212,51 @@ input[type='radio'].radio:checked + label:before {
   letter-spacing: 5px;
   width: 35px;
   font-weight: bold; }
+
+.tick-icon {
+  border: 1px solid #609fff;
+  border-radius: 100%;
+  font-size: 14px; }
+
+input[type='checkbox'] {
+  width: 17px;
+  /*Desired width*/
+  height: 17px;
+  /*Desired height*/
+  cursor: pointer; }
+
+.custom-formcheck input:checked + label i.checkbox-icon:before {
+  background-color: #565565; }
+
+#upload {
+  opacity: 0; }
+
+#upload-label {
+  position: absolute;
+  top: 50%;
+  left: 1rem;
+  transform: translateY(-50%); }
+
+.image-area {
+  border: 2px dashed rgba(255, 255, 255, 0.7);
+  padding: 1rem;
+  position: relative; }
+
+.image-area::before {
+  content: 'Uploaded image result';
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 0.8rem;
+  z-index: 1; }
+
+.image-area img {
+  z-index: 2;
+  position: relative; }
 
 .head-md-2 {
   font-family: Helvetica;
@@ -398,6 +443,13 @@ input[type='radio'].radio:checked + label:before {
   text-transform: uppercase;
   color: #999999; }
 
+.para-xs {
+  font-size: 10px;
+  line-height: 12px;
+  font-family: Lato;
+  font-weight: 300;
+  text-align: left; }
+
 ::placeholder {
   color: lightgrey !important;
   font-weight: 100 !important;
@@ -433,6 +485,16 @@ input[type='radio'].radio:checked + label:before {
 
 .color-grey {
   color: #999; }
+
+.color-blue {
+  background: #609fff; }
+
+.color-grey2 {
+  color: #b4b3b3; }
+
+.color-greydark,
+.bg-greydark {
+  background-color: #4f4e4e; }
 
 #svg-footer {
   fill: white; }
@@ -495,7 +557,10 @@ input[type='radio'].radio:checked + label:before {
   color: #dbdbdb; }
 
 .dashed {
-  border-style: dashed; }
+  border-style: dashed;
+  border-width: 1px;
+  border-color: #b4b3b3;
+  border-radius: 5px; }
 
 .a-reset {
   text-decoration: none;
@@ -588,8 +653,7 @@ input[type='radio'].radio:checked + label:before {
   height: 100vh; }
   @media only screen and (max-width: 450px) {
     .fullsc {
-      max-height: 100vh;
-      min-height: 0; } }
+      height: auto; } }
 
 .pt15 {
   padding-top: 15vh; }
