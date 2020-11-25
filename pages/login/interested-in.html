@@ -107,15 +107,44 @@
                 </g>
               </svg>
             </a>
-            <p class="head-5 text-white pt-5">
-              Categorize yourself to avail targeted benefits
+            <p class="head-5 text-white pt15 mt-5">
+              <span class="d-inline"
+                ><i
+                  class="fas fa-check tick-icon color-blue p-1 mr-2 font-weight-bold"
+                ></i>
+                About us
+              </span>
+              <span class="d-block mt-3"
+                ><i
+                  class="fas fa-check tick-icon color-blue p-1 mr-2 font-weight-bold"
+                ></i>
+                Startup Contact Information
+              </span>
+              <span class="d-block mt-3"
+                ><i
+                  class="fas fa-check tick-icon color-blue p-1 mr-2 font-weight-bold"
+                ></i>
+                Startup Category
+              </span>
+              <span class="d-block mt-3"
+                ><i
+                  class="fas fa-check tick-icon color-blue p-1 mr-2 font-weight-bold"
+                ></i>
+                Founder and Team Information
+              </span>
+              <span class="d-block mt-3"
+                ><i
+                  class="fas fa-check tick-icon color-blue p-1 mr-2 font-weight-bold"
+                ></i>
+                You are interested in
+              </span>
             </p>
           </div>
         </div>
 
         <!-- right container -->
         <div
-          class="col-lg-7 col-11 d-flex align-items-center flex-column fullsc p-0 m-0 overflow-auto"
+          class="col-lg-7 px-3 col-12 d-flex align-items-center flex-column fullsc p-0 m-0 overflow-auto"
         >
           <a
             href="/"
@@ -126,78 +155,158 @@
             </i>
           </a>
           <div class="col-lg-9 col-12 p-2">
-            <h1 class="head-md-2 pt-4 font-weight-bold">Select a Category</h1>
-            <form class="formSubmit d-flex flex-column">
-              <div class="form-group card card-hover-sm">
-                <input
-                  type="radio"
-                  class="radio"
-                  name="rGroup"
-                  value="1"
-                  id="r1"
-                />
-                <label for="r1" class="p-4 cursor"
-                  ><div class="pl-4 pb-lg-3 mt-n4">
-                    <h5 class="card-title head-md-1 mb-2 pl-2 font-weight-bold">
-                      Individual
-                    </h5>
-                    <p class="card-text pl-2 d-flex flex-column head-5">
-                      These are organizations that have idea only
-                    </p>
-                  </div></label
-                >
-              </div>
-
-              <div class="form-group card card-hover-sm">
-                <input
-                  type="radio"
-                  class="radio"
-                  name="rGroup"
-                  value="2"
-                  id="r2"
-                />
-                <label for="r2" class="p-4 cursor">
-                  <div class="pl-4 pb-lg-3 mt-n4">
-                    <h5 class="card-title head-md-1 mb-2 pl-2 font-weight-bold">
-                      Start Up
-                    </h5>
-                    <p class="card-text pl-2 d-flex flex-column head-5">
-                      These are the startups that have implemented ideas and
-                      have working product
-                    </p>
+            <h1 class="head-md-2 pt-4 font-weight-bold">Create Profile</h1>
+            <p class="head-6">
+              It is recommended to complete your profile for best search results
+            </p>
+            <form>
+              <div class="clearfix mb-40 pl-4">
+                <div class="row">
+                  <div class="col">
+                    <div class="form-group">
+                      <div class="custom-formcheck">
+                        <input
+                          type="checkbox"
+                          id="all"
+                          name="interests"
+                          class="form-check-input"
+                          value="1"
+                          onclick="toggle(this)"
+                        /><label
+                          class="form-check-label pt-1 pl-2 pt-1 pl-2"
+                          for="all"
+                          >All<i class="checkbox-icon"></i
+                        ></label>
+                      </div>
+                    </div>
                   </div>
-                </label>
-              </div>
-
-              <div class="form-group card card-hover-sm">
-                <input
-                  type="radio"
-                  class="radio"
-                  name="rGroup"
-                  value="3"
-                  id="r3"
-                />
-                <label for="r3" class="p-4 cursor">
-                  <div class="pl-4 pb-lg-3 mt-n4">
-                    <h5 class="card-title head-md-1 mb-2 pl-2 font-weight-bold">
-                      Certified Start Up
-                    </h5>
-                    <p class="card-text pl-2 d-flex flex-column head-5">
-                      These are the startups that have been certified by the
-                      government
-                    </p>
+                  <div class="col">
+                    <div class="form-group">
+                      <div class="custom-formcheck">
+                        <input
+                          type="checkbox"
+                          id="otherStartups"
+                          name="interests"
+                          class="form-check-input"
+                          value="2"
+                        /><label
+                          class="form-check-label pt-1 pl-2"
+                          for="otherStartups"
+                          >Other Startups<i class="checkbox-icon"></i
+                        ></label>
+                      </div>
+                    </div>
                   </div>
-                </label>
+                </div>
+                <div class="row">
+                  <div class="col">
+                    <div class="form-group">
+                      <div class="custom-formcheck">
+                        <input
+                          type="checkbox"
+                          id="mentors"
+                          name="interests"
+                          class="form-check-input"
+                          value="5"
+                        /><label
+                          class="form-check-label pt-1 pl-2"
+                          for="mentors"
+                          >Mentors<i class="checkbox-icon"></i
+                        ></label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="form-group">
+                      <div class="custom-formcheck">
+                        <input
+                          type="checkbox"
+                          id="investors"
+                          name="interests"
+                          class="form-check-input"
+                          value="6"
+                        /><label
+                          class="form-check-label pt-1 pl-2"
+                          for="investors"
+                          >Investors<i class="checkbox-icon"></i
+                        ></label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col">
+                    <div class="form-group">
+                      <div class="custom-formcheck">
+                        <input
+                          type="checkbox"
+                          id="incubators"
+                          name="interests"
+                          class="form-check-input"
+                          value="3"
+                        /><label
+                          class="form-check-label pt-1 pl-2"
+                          for="incubators"
+                          >Incubators<i class="checkbox-icon"></i
+                        ></label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="form-group">
+                      <div class="custom-formcheck">
+                        <input
+                          type="checkbox"
+                          id="accelerators"
+                          name="interests"
+                          class="form-check-input"
+                          value="4"
+                        /><label
+                          class="form-check-label pt-1 pl-2"
+                          for="accelerators"
+                          >Accelerators<i class="checkbox-icon"></i
+                        ></label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
               <div class="form-group">
-                <button
-                  type="submit"
-                  name="btn"
-                  id="btn"
-                  class="reset-btn head-6 pt-2 float-right"
-                  value="submit"
+                <label class="para mt-2" for="termOfUse">Terms of use</label
+                ><textarea
+                  class="form-control form-control-lg para"
+                  id="termOfUse"
+                  rows="4"
+                  placeholder="Write about the description"
+                  disabled=""
                 >
-                  <h1 class="head-7">Next ></h1>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc iaculis ligula dapibus viverra aliquam. Morbi non urna efficitur, luctus quam nec. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc iaculis ligula dapibus ..
+    </textarea
+                >
+              </div>
+              <div class="form-group">
+                <div class="custom-formcheck pl-4">
+                  <input
+                    type="checkbox"
+                    id="checkbox1"
+                    class="form-check-input"
+                    name="terms_of_use"
+                    required
+                  /><label
+                    class="form-check-label para ml-2 mt-1"
+                    for="termAccept"
+                    >I Agree to Terms &amp; Conditions</label
+                  >
+                </div>
+              </div>
+              <div class="clearfix mb-40">
+                <button
+                  class="btn btn-lg btn-primary greyscale mb-5"
+                  type="submit"
+                  disabled=""
+                  id="btnterm"
+                >
+                  <h1 class="head-5 mb-0 p-2 px-3">Submit</h1>
                 </button>
               </div>
             </form>
@@ -216,6 +325,5 @@
     integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
     crossorigin="anonymous"
   ></script>
-  <script src="../../js/category.js"></script>
-  <script src="../../js/style.js"></script>
+  <script src="../../js/termcheck.js"></script>
 </html>

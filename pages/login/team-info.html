@@ -107,15 +107,44 @@
                 </g>
               </svg>
             </a>
-            <p class="head-5 text-white pt-5">
-              Categorize yourself to avail targeted benefits
+            <p class="head-5 text-white pt15 mt-5">
+              <span class="d-inline"
+                ><i
+                  class="fas fa-check tick-icon color-blue p-1 mr-2 font-weight-bold"
+                ></i>
+                About us
+              </span>
+              <span class="d-block mt-3"
+                ><i
+                  class="fas fa-check tick-icon color-blue p-1 mr-2 font-weight-bold"
+                ></i>
+                Startup Contact Information
+              </span>
+              <span class="d-block mt-3"
+                ><i
+                  class="fas fa-check tick-icon color-blue p-1 mr-2 font-weight-bold"
+                ></i>
+                Startup Category
+              </span>
+              <span class="d-block mt-3"
+                ><i
+                  class="fas fa-check tick-icon color-blue p-1 mr-2 font-weight-bold"
+                ></i>
+                Founder and Team Information
+              </span>
+              <span class="d-block mt-3"
+                ><i
+                  class="fas fa-check tick-icon border-white p-1 mr-2 font-weight-bold"
+                ></i>
+                You are interested in
+              </span>
             </p>
           </div>
         </div>
 
         <!-- right container -->
         <div
-          class="col-lg-7 col-11 d-flex align-items-center flex-column fullsc p-0 m-0 overflow-auto"
+          class="col-lg-7 px-3 col-12 d-flex align-items-center flex-column fullsc p-0 m-0 overflow-auto"
         >
           <a
             href="/"
@@ -126,75 +155,95 @@
             </i>
           </a>
           <div class="col-lg-9 col-12 p-2">
-            <h1 class="head-md-2 pt-4 font-weight-bold">Select a Category</h1>
-            <form class="formSubmit d-flex flex-column">
-              <div class="form-group card card-hover-sm">
+            <h1 class="head-md-2 pt-4 font-weight-bold">Create Profile</h1>
+            <p class="head-6">
+              It is recommended to complete your profile for best search results
+            </p>
+            <form>
+              <div class="form-group pt-4">
+                <label class="para">Name of the Founder</label>
                 <input
-                  type="radio"
-                  class="radio"
-                  name="rGroup"
-                  value="1"
-                  id="r1"
+                  type="text"
+                  class="form-control form-control-lg"
+                  placeholder="Name of the Founder"
+                  name="name"
+                  value=""
+                  required
                 />
-                <label for="r1" class="p-4 cursor"
-                  ><div class="pl-4 pb-lg-3 mt-n4">
-                    <h5 class="card-title head-md-1 mb-2 pl-2 font-weight-bold">
-                      Individual
-                    </h5>
-                    <p class="card-text pl-2 d-flex flex-column head-5">
-                      These are organizations that have idea only
-                    </p>
-                  </div></label
-                >
+              </div>
+              <div class="form-group">
+                <label class="para">Educational Qualification</label>
+                <input
+                  type="text"
+                  class="form-control form-control-lg"
+                  placeholder="Educational Qualification"
+                  name="name"
+                  value=""
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <label class="para">Team Size</label>
+                <input
+                  type="text"
+                  class="form-control form-control-lg"
+                  placeholder="Team Size"
+                  name="name"
+                  value=""
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <label class="para">Registration Certificate Number</label>
+                <input
+                  type="text"
+                  class="form-control form-control-lg"
+                  placeholder="Registration Certificate Number"
+                  name="name"
+                  value=""
+                  required
+                />
               </div>
 
-              <div class="form-group card card-hover-sm">
-                <input
-                  type="radio"
-                  class="radio"
-                  name="rGroup"
-                  value="2"
-                  id="r2"
-                />
-                <label for="r2" class="p-4 cursor">
-                  <div class="pl-4 pb-lg-3 mt-n4">
-                    <h5 class="card-title head-md-1 mb-2 pl-2 font-weight-bold">
-                      Start Up
-                    </h5>
-                    <p class="card-text pl-2 d-flex flex-column head-5">
-                      These are the startups that have implemented ideas and
-                      have working product
-                    </p>
-                  </div>
-                </label>
+              <div class="form-group">
+                <label class="para">Year of Registration</label>
+                <div class="select-wrapper">
+                  <select
+                    class="form-control form-control-lg"
+                    name="year"
+                    required
+                  >
+                    <option value="">---</option>
+                    <option value="1">1998</option>
+                  </select>
+                </div>
               </div>
-
-              <div class="form-group card card-hover-sm">
-                <input
-                  type="radio"
-                  class="radio"
-                  name="rGroup"
-                  value="3"
-                  id="r3"
-                />
-                <label for="r3" class="p-4 cursor">
-                  <div class="pl-4 pb-lg-3 mt-n4">
-                    <h5 class="card-title head-md-1 mb-2 pl-2 font-weight-bold">
-                      Certified Start Up
-                    </h5>
-                    <p class="card-text pl-2 d-flex flex-column head-5">
-                      These are the startups that have been certified by the
-                      government
-                    </p>
-                  </div>
-                </label>
+              <h1 class="para mt-lg-5 mt-3">Co-Founder</h1>
+              <div class="additional_fields">
+                <div class="cofounder"></div>
+              </div>
+              <div class="add_field">
+                <div class="text-right">
+                  <button type="button" class="addbtn btn">
+                    <span class="para d-inline align-middle">Add More</span>
+                    <i
+                      class="fas fa-plus-circle addicon pl-2 d-inline align-middle"
+                    ></i></button
+                  ><button class="deletebtn btn">
+                    <span class="para d-inline align-middle">Delete</span>
+                    <i
+                      class="fas fa-minus-circle deleteicon pl-2 d-inline align-middle"
+                    ></i>
+                  </button>
+                </div>
+                <div class="line_layover width-65 mt-n2"></div>
               </div>
               <div class="form-group">
                 <button
                   type="submit"
                   name="btn"
                   id="btn"
-                  class="reset-btn head-6 pt-2 float-right"
+                  class="reset-btn head-6 mt-4 mb-5 float-right"
                   value="submit"
                 >
                   <h1 class="head-7">Next ></h1>
@@ -216,6 +265,5 @@
     integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
     crossorigin="anonymous"
   ></script>
-  <script src="../../js/category.js"></script>
-  <script src="../../js/style.js"></script>
+  <script src="../../js/addfields.js"></script>
 </html>

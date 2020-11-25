@@ -9,8 +9,8 @@ form.addEventListener('submit', (e) => {
   if (r1.checked == true) {
     document.location.replace('./basic-info.html');
   } else if (r2.checked == true) {
-    document.location.replace('./enablers.html');
+    document.location.replace('./profile-creation.html');
   } else if (r3.checked == true) {
-    document.location.replace('./service-provider.html');
+    document.location.replace('./profile-creation.html');
   }
 });

@@ -132,6 +132,15 @@
   background-color: var(--color-red);
 }
 
+.btn-blue {
+  border-radius: 4px;
+  &:hover,
+  &:focus {
+    color: white;
+    background-color: #609fff;
+  }
+}
+
 // Custom box field
 .box {
   display: flex;
@@ -200,7 +209,6 @@
 }
 
 // Radio
-
 input[type='radio'].radio {
   border: 0;
   clip: rect(0 0 0 0);
@@ -230,6 +238,13 @@ input[type='radio'].radio:checked + label:before {
   font-weight: bold;
 }
 
+// cus radio
+.custom-radiobtn {
+  width: 18px;
+  height: 18px;
+  align-items: center;
+}
+
 // tick
 .tick-icon {
   border: 1px solid #609fff;
@@ -237,6 +252,18 @@ input[type='radio'].radio:checked + label:before {
   font-size: 14px;
 }
 
+// icons
+.addicon {
+  color: #39dbff;
+  font-size: 25px;
+}
+
+.deleteicon {
+  color: #ff7a7a;
+  font-size: 25px;
+}
+
+// checkbox
 input[type='checkbox'] {
   width: 17px; /*Desired width*/
   height: 17px; /*Desired height*/
