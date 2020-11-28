@@ -53,10 +53,18 @@
   background-color: #4f4e4e;
 }
 
+.color-light-white {
+  color: #959595;
+}
+
 #svg-footer {
   fill: white;
 }
 // bgs
+.bg-light-grey {
+  background-color: #f4f6f8;
+}
+
 .bg-cream {
   background-color: #fff1e0;
 }
@@ -102,6 +110,10 @@
   background: white;
 }
 
+.bg-pink {
+  background-color: rgb(247, 229, 233);
+}
+
 .hover-color {
   &:hover {
     color: #fad236;
@@ -136,6 +148,16 @@
 
 .border-white {
   border-color: white;
+}
+
+.border-left-yellow {
+  border-left: 7px solid rgb(255, 191, 96);
+  position: absolute;
+  width: 6px;
+  height: 40px;
+  left: -1px;
+  top: 18px;
+  z-index: 10000;
 }
 
 .dashed {

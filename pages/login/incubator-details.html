@@ -109,34 +109,20 @@
             </a>
             <p class="head-5 text-white pt15 mt-5">
               <span class="d-inline"
+                ><i class="fas fa-check tick-icon color-blue p-1 mr-2"></i>
+                Basic Info
+              </span>
+              <span class="d-block mt-3"
                 ><i
                   class="fas fa-check tick-icon color-blue p-1 mr-2 font-weight-bold"
                 ></i>
-                About us
+                Incubator Details
               </span>
               <span class="d-block mt-3"
                 ><i
                   class="fas fa-check tick-icon border-white p-1 mr-2 font-weight-bold"
                 ></i>
-                Startup Contact Information
-              </span>
-              <span class="d-block mt-3"
-                ><i
-                  class="fas fa-check tick-icon border-white p-1 mr-2 font-weight-bold"
-                ></i>
-                Startup Category
-              </span>
-              <span class="d-block mt-3"
-                ><i
-                  class="fas fa-check tick-icon border-white p-1 mr-2 font-weight-bold"
-                ></i>
-                Founder and Team Information
-              </span>
-              <span class="d-block mt-3"
-                ><i
-                  class="fas fa-check tick-icon border-white p-1 mr-2 font-weight-bold"
-                ></i>
-                You are interested in
+                Contact Details
               </span>
             </p>
           </div>
@@ -160,44 +146,48 @@
               It is recommended to complete your profile for best search results
             </p>
             <form>
-              <label class="para">Profile image</label>
-              <div class="input-group mb-3 bg-white dashed w-75">
-                <input
-                  id="upload"
-                  type="file"
-                  onchange="readURL(this);"
-                  class="form-control form-control-lg"
-                  required
-                />
-                <label
-                  id="upload-label"
-                  for="upload"
-                  class="font-weight-light text-muted"
-                ></label>
-                <div class="input-group-append">
-                  <label
-                    for="upload"
-                    class="btn btn-dark color-greydark m-0 p-3 px-lg-5 px-3"
+              <div class="form-group">
+                <label class="para mt-4">Year of Establishment</label>
+                <div class="select-wrapper">
+                  <select
+                    class="form-control form-control-lg"
+                    name="Year of Establishment"
+                    required
                   >
-                    <i
-                      class="fa fa-cloud-upload mr-2 text-white my-auto mt-1"
-                    ></i
-                    ><small
-                      class="text-uppercase font-weight-bold text-white my-auto"
-                      >upload</small
-                    ></label
-                  >
+                    <option value="">---</option>
+                  </select>
                 </div>
               </div>
-              <p class="mt-n2 color-grey2 para-xs">
-                Resolution: 500x500 Max.size: 3MB Formats: *.jpg, *.jpeg, *.png
-              </p>
               <div class="form-group">
-                <label class="para">Startup Name</label
+                <label class="para">Program Duration</label>
+                <div class="select-wrapper">
+                  <select
+                    class="form-control form-control-lg"
+                    name="Program Duration"
+                    required
+                  >
+                    <option value="">---</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label class="para">No. Current Incubatees</label
                 ><input
                   type="text"
                   class="form-control form-control-lg"
-                  placeholder="Startup Name"
+                  placeholder="No. Current Incubatees"
+                  name="name"
+                  value=""
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <label class="para">No. Graduated Incubatees</label
+                ><input
+                  type="text"
+                  class="form-control form-control-lg"
+                  placeholder="No. Graduated Incubatees"
                   name="name"
                   value=""
                   required
@@ -205,62 +195,78 @@
               </div>
 
               <div class="form-group">
-                <label class="para d-block">Preferred Stage</label>
-                <div class="btn-group btn-group-toggle" data-toggle="buttons">
-                  <div class="d-block" role="group" aria-label="Basic example">
-                    <button type="button" class="btn btn-blue mr-lg-2">
-                      Early Traction
-                    </button>
-                    <button type="button" class="btn btn-blue mr-lg-2">
-                      Ideation
-                    </button>
-                    <button type="button" class="btn btn-blue mr-lg-2">
-                      Scaling
-                    </button>
-                    <button type="button" class="btn btn-blue mr-lg-2">
-                      Validation
-                    </button>
-                  </div>
-                </div>
+                <label class="para">Government Funded</label>
+                <span class="d-block mb-3 text-left">
+                  <label class="switch">
+                    <input type="checkbox" class="success" />
+                    <span class="slider round"></span>
+                  </label>
+                </span>
               </div>
 
               <div class="form-group">
-                <label class="para pb-2">Funded / Bootstrapped</label>
-                <div class="">
-                  <div class="d-inline">
-                    <input
-                      name="funding_type"
-                      type="radio"
-                      id="funded"
-                      value="funded"
-                      class="custom-radiobtn"
-                    /><label class="para pl-2 align-middle" for="funded"
-                      >Funded</label
-                    >
-                  </div>
-                  <div class="d-inline pl-3">
-                    <input
-                      name="funding_type"
-                      type="radio"
-                      id="bootstrapped"
-                      value="bootstrapped"
-                      class="custom-radiobtn"
-                    /><label class="para pl-2 align-middle" for="bootstrapped"
-                      >Bootstrapped</label
-                    >
-                  </div>
-                </div>
-              </div>
-
-              <div class="form-group">
-                <label for="about_me" class="para">Brief</label
-                ><textarea
+                <label class="para">Website Link</label
+                ><input
+                  type="text"
                   class="form-control form-control-lg"
-                  name="about_me"
-                  rows="8"
-                  placeholder="Write about the description"
+                  placeholder="Website Link"
+                  name="name"
+                  value=""
                   required
-                ></textarea>
+                />
+              </div>
+
+              <div class="form-group">
+                <label class="para">Application Link</label
+                ><input
+                  type="text"
+                  class="form-control form-control-lg"
+                  placeholder="Application Link"
+                  name="name"
+                  value=""
+                  required
+                />
+              </div>
+
+              <div class="form-group">
+                <label class="para">Portfolio Link</label>
+                <span class="d-block mb-3 text-left">
+                  <label class="switch">
+                    <input type="checkbox" class="success checked" />
+                    <span class="slider round"></span>
+                  </label>
+                </span>
+              </div>
+
+              <div class="div">
+                <div class="form-group addfields"></div>
+              </div>
+
+              <div class="add_field invisible">
+                <div class="text-right">
+                  <button type="button" class="addbtn btn">
+                    <span class="para d-inline align-middle">Add More</span>
+                  </button>
+                  <button
+                    class="btn deletebtn float-right"
+                    onclick="event.preventDefault(); deletefield(this);"
+                  >
+                    <i class="far fa-trash-alt"></i>
+                  </button>
+                </div>
+                <div class="line_layover w-75 mt-n2"></div>
+              </div>
+
+              <div class="form-group">
+                <label class="para mt-2">DPIIT Empanelement Number</label
+                ><input
+                  type="text"
+                  class="form-control form-control-lg"
+                  placeholder="DPIIT Empanelement Number"
+                  name="name"
+                  value=""
+                  required
+                />
               </div>
 
               <div class="form-group">
@@ -268,7 +274,7 @@
                   type="submit"
                   name="btn"
                   id="btn"
-                  class="reset-btn head-6 pt-2 float-right"
+                  class="reset-btn head-6 float-right mt-lg-5 mt-3"
                   value="submit"
                 >
                   <h1 class="head-7">Next ></h1>
@@ -290,5 +296,5 @@
     integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
     crossorigin="anonymous"
   ></script>
-  <script src="../../js/imgupload.js"></script>
+  <script src="../../js/addcheckfields.js"></script>
 </html>

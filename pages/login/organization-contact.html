@@ -109,34 +109,14 @@
             </a>
             <p class="head-5 text-white pt15 mt-5">
               <span class="d-inline"
+                ><i class="fas fa-check tick-icon color-blue p-1 mr-2"></i>
+                Basic Info
+              </span>
+              <span class="d-block mt-3"
                 ><i
                   class="fas fa-check tick-icon color-blue p-1 mr-2 font-weight-bold"
                 ></i>
-                About us
-              </span>
-              <span class="d-block mt-3"
-                ><i
-                  class="fas fa-check tick-icon border-white p-1 mr-2 font-weight-bold"
-                ></i>
-                Startup Contact Information
-              </span>
-              <span class="d-block mt-3"
-                ><i
-                  class="fas fa-check tick-icon border-white p-1 mr-2 font-weight-bold"
-                ></i>
-                Startup Category
-              </span>
-              <span class="d-block mt-3"
-                ><i
-                  class="fas fa-check tick-icon border-white p-1 mr-2 font-weight-bold"
-                ></i>
-                Founder and Team Information
-              </span>
-              <span class="d-block mt-3"
-                ><i
-                  class="fas fa-check tick-icon border-white p-1 mr-2 font-weight-bold"
-                ></i>
-                You are interested in
+                Contact Details
               </span>
             </p>
           </div>
@@ -160,44 +140,49 @@
               It is recommended to complete your profile for best search results
             </p>
             <form>
-              <label class="para">Profile image</label>
-              <div class="input-group mb-3 bg-white dashed w-75">
-                <input
-                  id="upload"
-                  type="file"
-                  onchange="readURL(this);"
-                  class="form-control form-control-lg"
-                  required
-                />
-                <label
-                  id="upload-label"
-                  for="upload"
-                  class="font-weight-light text-muted"
-                ></label>
-                <div class="input-group-append">
-                  <label
-                    for="upload"
-                    class="btn btn-dark color-greydark m-0 p-3 px-lg-5 px-3"
-                  >
-                    <i
-                      class="fa fa-cloud-upload mr-2 text-white my-auto mt-1"
-                    ></i
-                    ><small
-                      class="text-uppercase font-weight-bold text-white my-auto"
-                      >upload</small
-                    ></label
-                  >
+              <div class="form-group">
+                <label class="para mt-4">Name</label>
+                <div class="row">
+                  <div class="col">
+                    <input
+                      type="text"
+                      class="form-control form-control-lg"
+                      placeholder="First Name"
+                      name="fname"
+                      value=""
+                      required
+                    />
+                  </div>
+                  <div class="col">
+                    <input
+                      type="text"
+                      class="form-control form-control-lg"
+                      placeholder="Last Name"
+                      name="lname"
+                      value=""
+                      required
+                    />
+                  </div>
                 </div>
               </div>
-              <p class="mt-n2 color-grey2 para-xs">
-                Resolution: 500x500 Max.size: 3MB Formats: *.jpg, *.jpeg, *.png
-              </p>
+
               <div class="form-group">
-                <label class="para">Startup Name</label
+                <label class="para">Role</label
                 ><input
                   type="text"
                   class="form-control form-control-lg"
-                  placeholder="Startup Name"
+                  placeholder="Role"
+                  name="name"
+                  value=""
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <label class="para">Email Address</label
+                ><input
+                  type="text"
+                  class="form-control form-control-lg"
+                  placeholder="Email Address"
                   name="name"
                   value=""
                   required
@@ -205,73 +190,52 @@
               </div>
 
               <div class="form-group">
-                <label class="para d-block">Preferred Stage</label>
-                <div class="btn-group btn-group-toggle" data-toggle="buttons">
-                  <div class="d-block" role="group" aria-label="Basic example">
-                    <button type="button" class="btn btn-blue mr-lg-2">
-                      Early Traction
-                    </button>
-                    <button type="button" class="btn btn-blue mr-lg-2">
-                      Ideation
-                    </button>
-                    <button type="button" class="btn btn-blue mr-lg-2">
-                      Scaling
-                    </button>
-                    <button type="button" class="btn btn-blue mr-lg-2">
-                      Validation
-                    </button>
-                  </div>
-                </div>
-              </div>
-
-              <div class="form-group">
-                <label class="para pb-2">Funded / Bootstrapped</label>
-                <div class="">
-                  <div class="d-inline">
-                    <input
-                      name="funding_type"
-                      type="radio"
-                      id="funded"
-                      value="funded"
-                      class="custom-radiobtn"
-                    /><label class="para pl-2 align-middle" for="funded"
-                      >Funded</label
-                    >
-                  </div>
-                  <div class="d-inline pl-3">
-                    <input
-                      name="funding_type"
-                      type="radio"
-                      id="bootstrapped"
-                      value="bootstrapped"
-                      class="custom-radiobtn"
-                    /><label class="para pl-2 align-middle" for="bootstrapped"
-                      >Bootstrapped</label
-                    >
-                  </div>
-                </div>
-              </div>
-
-              <div class="form-group">
-                <label for="about_me" class="para">Brief</label
-                ><textarea
+                <label class="para">Mobile Number</label
+                ><input
+                  type="text"
                   class="form-control form-control-lg"
-                  name="about_me"
-                  rows="8"
-                  placeholder="Write about the description"
+                  placeholder="Mobile Number"
+                  name="name"
+                  value=""
                   required
-                ></textarea>
+                />
               </div>
-
               <div class="form-group">
-                <button
-                  type="submit"
-                  name="btn"
-                  id="btn"
-                  class="reset-btn head-6 pt-2 float-right"
-                  value="submit"
+                <label class="para" for="termOfUse">Terms of use</label
+                ><textarea
+                  class="form-control form-control-lg para"
+                  id="termOfUse"
+                  rows="4"
+                  placeholder="Write about the description"
+                  disabled=""
                 >
-                  <h1 class="head-7">Next ></h1>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc iaculis ligula dapibus viverra aliquam. Morbi non urna efficitur, luctus quam nec. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc iaculis ligula dapibus ..
+</textarea
+                >
+              </div>
+              <div class="form-group">
+                <div class="custom-formcheck pl-4">
+                  <input
+                    type="checkbox"
+                    id="checkbox1"
+                    class="form-check-input"
+                    name="terms_of_use"
+                    required
+                  /><label
+                    class="form-check-label para ml-2 mt-1"
+                    for="termAccept"
+                    >I Agree to Terms &amp; Conditions</label
+                  >
+                </div>
+              </div>
+              <div class="clearfix mb-40">
+                <button
+                  class="btn btn-lg btn-primary greyscale mb-5"
+                  type="submit"
+                  disabled=""
+                  id="btnterm"
+                >
+                  <h1 class="head-5 mb-0 p-2 px-3">Submit</h1>
                 </button>
               </div>
             </form>
@@ -290,5 +254,5 @@
     integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
     crossorigin="anonymous"
   ></script>
-  <script src="../../js/imgupload.js"></script>
+  <script src="../../js/termcheck.js"></script>
 </html>

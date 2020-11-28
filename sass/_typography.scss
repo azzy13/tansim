@@ -120,7 +120,7 @@
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 26px;
+  line-height: 24px;
   letter-spacing: 0em;
   text-align: left;
 
@@ -157,6 +157,13 @@
   //   font-size: 16px;
   //   line-height: 16px;
   // }
+}
+
+.head-8 {
+  font-size: 35px;
+  line-height: 24px;
+  letter-spacing: -0.11em;
+  margin-bottom: 0;
 }
 
 .head-sub {
@@ -239,12 +246,27 @@
   color: #999999;
 }
 
+.para-sm-1 {
+  font-family: Lato;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 17px;
+  letter-spacing: 0.04em;
+  text-align: left;
+}
+
 .para-xs {
   font-size: 10px;
   line-height: 12px;
   font-family: Lato;
   font-weight: 300;
   text-align: left;
+}
+
+.special-head {
+  font-size: 13px;
+  margin: 0px 0px 0px 1rem;
 }
 
 // placeholder

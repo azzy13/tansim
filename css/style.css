@@ -142,6 +142,63 @@ body {
     color: white;
     background-color: #609fff; }
 
+.btn-pink-2 {
+  background-color: #ff808b;
+  border-color: #ff808b; }
+  .btn-pink-2:hover {
+    color: white;
+    background-color: #ff5a68;
+    border-color: #ff4d5c; }
+
+/* The switch - the box around the slider */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 53px;
+  height: 28px; }
+
+/* Hide default HTML checkbox */
+.switch input {
+  display: none; }
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: 0.4s;
+  transition: 0.4s; }
+
+.slider:before {
+  position: absolute;
+  content: '';
+  height: 20px;
+  width: 20px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s; }
+
+input.success:checked + .slider {
+  background-color: #40d08b; }
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px); }
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px; }
+
+.slider.round:before {
+  border-radius: 50%; }
+
 .box {
   display: flex;
   align-items: center;
@@ -277,6 +334,60 @@ input[type='checkbox'] {
   z-index: 2;
   position: relative; }
 
+.header_account_icon {
+  width: 40px;
+  height: 40px;
+  margin-top: -8px;
+  margin-right: 10px;
+  margin-left: -10px; }
+
+.custom-banner {
+  background-color: #f7e5e9;
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  border-radius: 4px; }
+
+.connections-card-wrapper img {
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  object-fit: cover; }
+
+.date-info {
+  display: flex;
+  align-items: center; }
+
+.card-event {
+  height: 220px; }
+  .card-event .details {
+    position: absolute;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 42px;
+    bottom: -26px;
+    border-radius: 3px;
+    width: 100%;
+    left: 0;
+    right: 0;
+    visibility: hidden;
+    transition: all 0.3s linear; }
+  .card-event .content {
+    transition: all 0.3s linear; }
+  .card-event:hover .details {
+    visibility: visible;
+    background: #609fff;
+    -webkit-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+    transform: translateY(-1.7rem); }
+  .card-event:hover .content {
+    -webkit-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+    transform: translateY(-0.5rem); }
+
 .head-md-2 {
   font-family: Helvetica;
   font-size: 24px;
@@ -379,7 +490,7 @@ input[type='checkbox'] {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 26px;
+  line-height: 24px;
   letter-spacing: 0em;
   text-align: left; }
 
@@ -398,6 +509,12 @@ input[type='checkbox'] {
   line-height: 21px;
   letter-spacing: 0em;
   text-align: left; }
+
+.head-8 {
+  font-size: 35px;
+  line-height: 24px;
+  letter-spacing: -0.11em;
+  margin-bottom: 0; }
 
 .head-sub {
   font-family: Lato;
@@ -462,12 +579,25 @@ input[type='checkbox'] {
   text-transform: uppercase;
   color: #999999; }
 
+.para-sm-1 {
+  font-family: Lato;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 17px;
+  letter-spacing: 0.04em;
+  text-align: left; }
+
 .para-xs {
   font-size: 10px;
   line-height: 12px;
   font-family: Lato;
   font-weight: 300;
   text-align: left; }
+
+.special-head {
+  font-size: 13px;
+  margin: 0px 0px 0px 1rem; }
 
 ::placeholder {
   color: lightgrey !important;
@@ -515,8 +645,14 @@ input[type='checkbox'] {
 .bg-greydark {
   background-color: #4f4e4e; }
 
+.color-light-white {
+  color: #959595; }
+
 #svg-footer {
   fill: white; }
+
+.bg-light-grey {
+  background-color: #f4f6f8; }
 
 .bg-cream {
   background-color: #fff1e0; }
@@ -552,6 +688,9 @@ input[type='checkbox'] {
 .bg-white {
   background: white; }
 
+.bg-pink {
+  background-color: #f7e5e9; }
+
 .hover-color:hover {
   color: #fad236;
   text-decoration: none; }
@@ -577,6 +716,15 @@ input[type='checkbox'] {
 
 .border-white {
   border-color: white; }
+
+.border-left-yellow {
+  border-left: 7px solid #ffbf60;
+  position: absolute;
+  width: 6px;
+  height: 40px;
+  left: -1px;
+  top: 18px;
+  z-index: 10000; }
 
 .dashed {
   border-style: dashed;
@@ -621,7 +769,7 @@ input[type='checkbox'] {
     padding-left: 10px;
     padding-right: 10px; } }
 
-.container {
+.container-sm {
   min-width: 80vw; }
 
 .dropdown:hover .dropdown-menu {
@@ -642,6 +790,10 @@ input[type='checkbox'] {
 .icon {
   vertical-align: middle;
   font-size: 1.4rem; }
+
+.icon-lg {
+  font-size: 1.8rem;
+  vertical-align: middle; }
 
 .icon-3 {
   font-size: 1rem; }

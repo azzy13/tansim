@@ -141,6 +141,73 @@
   }
 }
 
+.btn-pink-2 {
+  background-color: #ff808b;
+  border-color: #ff808b;
+  &:hover {
+    color: white;
+    background-color: #ff5a68;
+    border-color: #ff4d5c;
+  }
+}
+
+// slide button
+/* The switch - the box around the slider */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 53px;
+  height: 28px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  display: none;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: '';
+  height: 20px;
+  width: 20px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+input.success:checked + .slider {
+  background-color: #40d08b;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
 // Custom box field
 .box {
   display: flex;
@@ -308,4 +375,76 @@ input[type='checkbox'] {
 .image-area img {
   z-index: 2;
   position: relative;
+}
+
+// icon
+.header_account_icon {
+  width: 40px;
+  height: 40px;
+  margin-top: -8px;
+  margin-right: 10px;
+  margin-left: -10px;
+}
+
+.custom-banner {
+  background-color: rgb(247, 229, 233);
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  border-radius: 4px;
+}
+
+// img-card dashboard
+.connections-card-wrapper img {
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+// event dashboard
+.date-info {
+  display: flex;
+  align-items: center;
+}
+
+.card-event {
+  height: 220px;
+  .details {
+    position: absolute;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 42px;
+    bottom: -26px;
+    border-radius: 3px;
+    width: 100%;
+    left: 0;
+    right: 0;
+    visibility: hidden;
+    transition: all 0.3s linear;
+  }
+
+  .content {
+    transition: all 0.3s linear;
+  }
+
+  &:hover {
+    .details {
+      visibility: visible;
+      background: #609fff;
+      -webkit-transition: all 0.3s linear;
+      transition: all 0.3s linear;
+      transform: translateY(-1.7rem);
+    }
+
+    .content {
+      -webkit-transition: all 0.3s linear;
+      transition: all 0.3s linear;
+
+      transform: translateY(-0.5rem);
+    }
+  }
 }

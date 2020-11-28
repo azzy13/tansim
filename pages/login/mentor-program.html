@@ -109,39 +109,24 @@
             </a>
             <p class="head-5 text-white pt15 mt-5">
               <span class="d-inline"
+                ><i class="fas fa-check tick-icon color-blue p-1 mr-2"></i>
+                Select your network
+              </span>
+              <span class="d-block mt-3"
                 ><i
                   class="fas fa-check tick-icon color-blue p-1 mr-2 font-weight-bold"
                 ></i>
-                About us
+                Basic Info
               </span>
               <span class="d-block mt-3"
                 ><i
-                  class="fas fa-check tick-icon border-white p-1 mr-2 font-weight-bold"
+                  class="fas fa-check tick-icon color-blue p-1 mr-2 font-weight-bold"
                 ></i>
-                Startup Contact Information
-              </span>
-              <span class="d-block mt-3"
-                ><i
-                  class="fas fa-check tick-icon border-white p-1 mr-2 font-weight-bold"
-                ></i>
-                Startup Category
-              </span>
-              <span class="d-block mt-3"
-                ><i
-                  class="fas fa-check tick-icon border-white p-1 mr-2 font-weight-bold"
-                ></i>
-                Founder and Team Information
-              </span>
-              <span class="d-block mt-3"
-                ><i
-                  class="fas fa-check tick-icon border-white p-1 mr-2 font-weight-bold"
-                ></i>
-                You are interested in
+                Mentorship Program
               </span>
             </p>
           </div>
         </div>
-
         <!-- right container -->
         <div
           class="col-lg-7 px-3 col-12 d-flex align-items-center flex-column fullsc p-0 m-0 overflow-auto"
@@ -156,111 +141,127 @@
           </a>
           <div class="col-lg-9 col-12 p-2">
             <h1 class="head-md-2 pt-4 font-weight-bold">Create Profile</h1>
-            <p class="head-6">
+            <p class="head-6 mb-4">
               It is recommended to complete your profile for best search results
             </p>
             <form>
-              <label class="para">Profile image</label>
-              <div class="input-group mb-3 bg-white dashed w-75">
-                <input
-                  id="upload"
-                  type="file"
-                  onchange="readURL(this);"
-                  class="form-control form-control-lg"
-                  required
-                />
-                <label
-                  id="upload-label"
-                  for="upload"
-                  class="font-weight-light text-muted"
-                ></label>
-                <div class="input-group-append">
+              <h1 class="head-6 mb-3">Select the categories that suits you</h1>
+              <div class="form-group mt-1">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" />
                   <label
-                    for="upload"
-                    class="btn btn-dark color-greydark m-0 p-3 px-lg-5 px-3"
+                    class="form-check-label para mt-1 pl-2"
+                    for="gridCheck"
                   >
-                    <i
-                      class="fa fa-cloud-upload mr-2 text-white my-auto mt-1"
-                    ></i
-                    ><small
-                      class="text-uppercase font-weight-bold text-white my-auto"
-                      >upload</small
-                    ></label
+                    Government Official (Eligibility Criteria: At least 10 years
+                    industry experience)
+                  </label>
+                </div>
+                <div class="form-check mt-1">
+                  <input class="form-check-input" type="checkbox" />
+                  <label
+                    class="form-check-label para mt-1 pl-2"
+                    for="gridCheck"
                   >
+                    Industry Expert (Eligibility Criteria: Director or above
+                    with a government department)
+                  </label>
                 </div>
-              </div>
-              <p class="mt-n2 color-grey2 para-xs">
-                Resolution: 500x500 Max.size: 3MB Formats: *.jpg, *.jpeg, *.png
-              </p>
-              <div class="form-group">
-                <label class="para">Startup Name</label
-                ><input
-                  type="text"
-                  class="form-control form-control-lg"
-                  placeholder="Startup Name"
-                  name="name"
-                  value=""
-                  required
-                />
-              </div>
-
-              <div class="form-group">
-                <label class="para d-block">Preferred Stage</label>
-                <div class="btn-group btn-group-toggle" data-toggle="buttons">
-                  <div class="d-block" role="group" aria-label="Basic example">
-                    <button type="button" class="btn btn-blue mr-lg-2">
-                      Early Traction
-                    </button>
-                    <button type="button" class="btn btn-blue mr-lg-2">
-                      Ideation
-                    </button>
-                    <button type="button" class="btn btn-blue mr-lg-2">
-                      Scaling
-                    </button>
-                    <button type="button" class="btn btn-blue mr-lg-2">
-                      Validation
-                    </button>
-                  </div>
+                <div class="form-check mt-1">
+                  <input class="form-check-input" type="checkbox" />
+                  <label
+                    class="form-check-label para mt-1 pl-2"
+                    for="gridCheck"
+                  >
+                    Startup Advisor (Eligibility Criteria: Must have a thorough
+                    knowledge of the Startup ecosystem in India - Must be a
+                    postgraduate or pursuing a master's degree - In case a
+                    Startup Founder, then must have an established innovative
+                    Startup having raised fund
+                  </label>
                 </div>
               </div>
 
-              <div class="form-group">
-                <label class="para pb-2">Funded / Bootstrapped</label>
-                <div class="">
-                  <div class="d-inline">
-                    <input
-                      name="funding_type"
-                      type="radio"
-                      id="funded"
-                      value="funded"
-                      class="custom-radiobtn"
-                    /><label class="para pl-2 align-middle" for="funded"
-                      >Funded</label
-                    >
-                  </div>
-                  <div class="d-inline pl-3">
-                    <input
-                      name="funding_type"
-                      type="radio"
-                      id="bootstrapped"
-                      value="bootstrapped"
-                      class="custom-radiobtn"
-                    /><label class="para pl-2 align-middle" for="bootstrapped"
-                      >Bootstrapped</label
-                    >
-                  </div>
+              <h1 class="head-6 mt-lg-5 mt-3 mb-3 mb-lg-5">
+                Kindly choose the below means to conduct mentorship
+              </h1>
+              <h2 class="head-6 mb-2">Online</h2>
+              <div class="form-group mt-1">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" />
+                  <label
+                    class="form-check-label para mt-1 pl-2"
+                    for="gridCheck"
+                  >
+                    One to One (Remote) (Startup India will share the technical
+                    specifications for conducting One to One(Remote) Mentor
+                    sessions. The same will be conducted over a video
+                    conferencing)
+                  </label>
+                </div>
+                <div class="form-check mt-1">
+                  <input class="form-check-input" type="checkbox" />
+                  <label
+                    class="form-check-label para mt-1 pl-2"
+                    for="gridCheck"
+                  >
+                    Webinar (Startup India will share the technical
+                    specifications for Webinar which will take place at the
+                    location of the Mentor)
+                  </label>
                 </div>
               </div>
 
+              <h2 class="head-6 mb-2 mt-5">Offline</h2>
+              <div class="form-group mt-1">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" />
+                  <label
+                    class="form-check-label para mt-1 pl-2"
+                    for="gridCheck"
+                  >
+                    One to many masterclass (The venue for this Masterclass will
+                    be shared by the Startup India Team)
+                  </label>
+                </div>
+                <div class="form-check mt-1">
+                  <input class="form-check-input" type="checkbox" />
+                  <label
+                    class="form-check-label para mt-1 pl-2"
+                    for="gridCheck"
+                  >
+                    One to one meet up (This meetup will be scheduled by the
+                    mentor and mentee based on the mutual convenience. Venue,
+                    timings will be decided by the mentor and mentee)
+                  </label>
+                </div>
+              </div>
+
+              <div class="form-group mt-lg-5 mt-4">
+                <label class="para">Interested domains to mentor in</label>
+                <div class="select-wrapper">
+                  <select
+                    class="form-control form-control-lg"
+                    name="Interested domains to mentor in"
+                    required
+                  >
+                    <option value="">---</option>
+                  </select>
+                </div>
+              </div>
               <div class="form-group">
-                <label for="about_me" class="para">Brief</label
-                ><textarea
-                  class="form-control form-control-lg"
-                  name="about_me"
-                  rows="8"
-                  placeholder="Write about the description"
-                  required
-                ></textarea>
+                <label class="para"
+                  >Number of hours willing to spend per week</label
+                >
+                <div class="select-wrapper">
+                  <select
+                    class="form-control form-control-lg"
+                    name="Number of hours willing to spend per week"
+                    required
+                  >
+                    <option value="">---</option>
+                  </select>
+                </div>
               </div>
 
               <div class="form-group">
@@ -271,7 +272,7 @@
                   class="reset-btn head-6 pt-2 float-right"
                   value="submit"
                 >
-                  <h1 class="head-7">Next ></h1>
+                  <h1 class="head-7 mt-4 mb-5">Next ></h1>
                 </button>
               </div>
             </form>
@@ -290,5 +291,5 @@
     integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
     crossorigin="anonymous"
   ></script>
-  <script src="../../js/imgupload.js"></script>
+  <script src="../../js/termcheck.js"></script>
 </html>
