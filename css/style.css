@@ -388,6 +388,13 @@ input[type='checkbox'] {
     transition: all 0.3s linear;
     transform: translateY(-0.5rem); }
 
+.custom-banner-2 {
+  background: linear-gradient(314.99deg, #7674ff -31.65%, #54a9f3 118.79%); }
+
+.profile-card {
+  height: 200px;
+  width: 100%; }
+
 .head-md-2 {
   font-family: Helvetica;
   font-size: 24px;
