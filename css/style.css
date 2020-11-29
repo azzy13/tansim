@@ -692,6 +692,9 @@ input[type='checkbox'] {
 .bg-grey {
   background: #f5f5f5; }
 
+.bg-grey-2 {
+  background-color: grey; }
+
 .bg-white {
   background: white; }
 
@@ -851,6 +854,20 @@ input[type='checkbox'] {
 @media only screen and (max-width: 450px) {
   .ptsm-5 {
     padding-top: 5vh; } }
+
+.pad-y-6 {
+  padding-top: 6rem;
+  padding-bottom: 6rem; }
+  @media only screen and (max-width: 450px) {
+    .pad-y-6 {
+      padding-top: 2rem;
+      padding-bottom: 2rem; } }
+
+.mar-top-7 {
+  margin-top: 7rem; }
+  @media only screen and (max-width: 450px) {
+    .mar-top-7 {
+      margin-top: 3rem; } }
 
 .pb15 {
   padding-bottom: 15vh; }
