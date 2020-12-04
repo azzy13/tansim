@@ -101,6 +101,15 @@ body {
       padding: 0.4rem 1.2rem;
       width: 100%; } }
 
+.btn-filter {
+  border-radius: 1px;
+  outline: none;
+  background-color: #565565;
+  padding-top: 5px;
+  height: 42px; }
+  .btn-filter:hover, .btn-filter:focus, .btn-filter:visited {
+    box-shadow: none; }
+
 .btn-custom-2 {
   padding: 0.5rem 1.5rem;
   color: var(--color-secondary);
@@ -141,6 +150,14 @@ body {
   .btn-blue:hover, .btn-blue:focus {
     color: white;
     background-color: #609fff; }
+
+.btn-blue-2 {
+  background-color: #609fff;
+  border-radius: 3px;
+  border-color: #609fff; }
+  .btn-blue-2:hover, .btn-blue-2:focus {
+    color: white;
+    border-color: #609fff; }
 
 .btn-pink-2 {
   background-color: #ff808b;
@@ -394,6 +411,15 @@ input[type='checkbox'] {
 .profile-card {
   height: 200px;
   width: 100%; }
+
+.custom-input-box {
+  border-radius: 0; }
+  .custom-input-box:hover {
+    box-shadow: none; }
+  .custom-input-box:focus {
+    box-shadow: none;
+    border-width: 2px;
+    border-color: #80bdff; }
 
 .head-md-2 {
   font-family: Helvetica;

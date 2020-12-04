@@ -91,6 +91,19 @@
   }
 }
 
+.btn-filter {
+  border-radius: 1px;
+  outline: none;
+  background-color: #565565;
+  padding-top: 5px;
+  height: 42px;
+  &:hover,
+  &:focus,
+  &:visited {
+    box-shadow: none;
+  }
+}
+
 .btn-custom-2 {
   padding: 0.5rem 1.5rem;
   color: var(--color-secondary);
@@ -138,6 +151,17 @@
   &:focus {
     color: white;
     background-color: #609fff;
+  }
+}
+
+.btn-blue-2 {
+  background-color: #609fff;
+  border-radius: 3px;
+  border-color: #609fff;
+  &:hover,
+  &:focus {
+    color: white;
+    border-color: #609fff;
   }
 }
 
@@ -461,4 +485,17 @@ input[type='checkbox'] {
 .profile-card {
   height: 200px;
   width: 100%;
+}
+
+// Input box
+.custom-input-box {
+  border-radius: 0;
+  &:hover {
+    box-shadow: none;
+  }
+  &:focus {
+    box-shadow: none;
+    border-width: 2px;
+    border-color: #80bdff;
+  }
 }
