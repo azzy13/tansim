@@ -37,7 +37,7 @@
     <header>
       <nav class="navbar navbar-expand-lg navbar-light border-bottom">
         <div class="container container-sm">
-          <a class="navbar-brand" href="#">
+          <a class="navbar-brand" href="/">
             <img
               src="../assets/gov_logo.png"
               class="img-fluid bg-white border-0 d-inline w-25"
@@ -78,7 +78,7 @@
                   <a class="dropdown-item" href="../pages/tansim.html"
                     >Startup TN</a
                   >
-                  <a class="dropdown-item" href="../pages/team">Team</a>
+                  <a class="dropdown-item" href="../pages/team.html">Team</a>
                   <a class="dropdown-item" href="../pages/contact-us.html"
                     >Contact Us</a
                   >
@@ -97,14 +97,18 @@
                   Startups
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
-                  <a class="dropdown-item" href="#">Action</a>
-                  <a class="dropdown-item" href="#">Another action</a>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="#">Something else here</a>
+                  <a class="dropdown-item" href="../pages/overview.html"
+                    >Overview</a
+                  >
+                  <a class="dropdown-item" href="../pages/deals.html"
+                    >Deals & Services</a
+                  >
                 </div>
               </li>
               <li class="nav-item dropdown mr-1">
-                <a class="nav-link" href="#" role="button"> Enablers </a>
+                <a class="nav-link" href="./pages/enablers.html" role="button">
+                  Enablers
+                </a>
               </li>
               <li class="nav-item dropdown mr-1">
                 <a
@@ -119,10 +123,12 @@
                   Ecosystem
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown4">
-                  <a class="dropdown-item" href="#">Action</a>
-                  <a class="dropdown-item" href="#">Another action</a>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="#">Something else here</a>
+                  <a class="dropdown-item" href="../pages/ecosystem.html"
+                    >Explore TN Ecosystem</a
+                  >
+                  <a class="dropdown-item" href="../pages/events.html"
+                    >Events</a
+                  >
                 </div>
               </li>
 
@@ -139,17 +145,9 @@
                   Support
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown3">
-                  <a class="dropdown-item" href="#">Action</a>
-                  <a class="dropdown-item" href="#">Another action</a>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="#">Something else here</a>
+                  <a class="dropdown-item" href="#">FAQ</a>
+                  <a class="dropdown-item" href="#">Raise a ticket</a>
                 </div>
-              </li>
-
-              <li>
-                <a href="#" class="btn d-sm-none d-sm-block d-none">
-                  <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
-                </a>
               </li>
             </ul>
 
@@ -169,15 +167,15 @@
                 <a class="dropdown-item" href="#">Tamil</a>
               </div>
             </li>
-            <button
-              type="button"
+            <a
+              href="./login/login.html"
               class="btn btn-pd btn-light mr-2 btn-custom-3"
             >
               Login
-            </button>
-            <button type="button" class="btn btn-primary btn-custom">
+            </a>
+            <a href="./login/register.html" class="btn btn-primary btn-custom">
               Register
-            </button>
+            </a>
           </div>
         </div>
         <!-- Mobile nav -->
@@ -193,7 +191,9 @@
                 <i aria-hidden="true" class="fas fa-times text-white"></i>
               </button>
 
-              <a href="#!" class=""><span class="para">Login &rarr;</span></a>
+              <a href="./login/login.html" class=""
+                ><span class="para">Login &rarr;</span></a
+              >
             </div>
             <div class="pt-4 w-100 d-flex flex-column justify-content-left">
               <h1 class="text-white para-2 text-left mb-0">About</h1>
@@ -213,12 +213,12 @@
 
               <h1 class="text-white para-2 text-left mb-0">Startups</h1>
               <div class="color-dark-white para-2">
-                <a class="pl-3 pb-2 a-reset" href="/startups/overview"
+                <a class="pl-3 pb-2 a-reset" href="../pages/overview.html"
                   >Overview</a
                 >
               </div>
               <div class="color-dark-white para-2">
-                <a class="pl-3 pb-2 a-reset" href="/deals"
+                <a class="pl-3 pb-2 a-reset" href="../pages/deals.html"
                   >Deals &amp; Services</a
                 >
               </div>
@@ -229,12 +229,14 @@
               <div class="color-dark-white para-2">
                 <h1 class="text-white para-2 text-left mb-0">Ecosystem</h1>
                 <div class="color-dark-white para-2">
-                  <a class="pl-3 pb-2 a-reset" href="/ecosystem"
+                  <a class="pl-3 pb-2 a-reset" href="../pages/ecosystem.html"
                     >Explore TN Ecosystem</a
                   >
                 </div>
                 <div class="color-dark-white para-2">
-                  <a class="pl-3 pb-2 a-reset" href="/events">Events</a>
+                  <a class="pl-3 pb-2 a-reset" href="../pages/events.html"
+                    >Events</a
+                  >
                 </div>
               </div>
               <div class="color-dark-white para-2">
@@ -269,20 +271,6 @@
           </h2>
         </div>
       </div>
-      <div class="row mt-2 mt-lg-4 justify-content-center mb-lg-5 mb-3">
-        <button
-          type="button"
-          class="btn btn-primary btn-custom mx-2 m-0 px-lg-5 padding-y mr-lg-3"
-        >
-          Get Started &rarr;
-        </button>
-        <button
-          type="button"
-          class="btn btn-outline-primary mx-2 ml-lg-3 px-lg-5 btn-custom-2"
-        >
-          Know More
-        </button>
-      </div>
     </div>
 
     <!-- Mission -->
@@ -310,11 +298,9 @@
         </svg>
       </div>
       <div class="mx-3 col-md-6 col-sm-10 col-lg-5">
-        <div class="para-sm pb-1">MISSION AND VISION</div>
-        <h2 class="head-2 color-black text-left text-lg-center pb-2">
-          Startup TN
-        </h2>
-        <div class="head-5 text-left text-lg-center line-ht">
+        <div class="para-sm text-left pb-1">MISSION AND VISION</div>
+        <h2 class="head-2 color-black text-left pb-2">Startup TN</h2>
+        <div class="head-5 text-left line-ht">
           We at Startup TN aim to achive an innovative ecosystem in the State by
           joining hands with every Stakeholder. The Vision of the policy is to
           attract entrepreneurs and investors from across the globe and make the
@@ -1070,12 +1056,12 @@
         </div>
       </div>
       <div class="row mt-4 justify-content-center mb-5">
-        <button
-          type="button"
+        <a
+          href="./login/register.html"
           class="btn py-lg-3 text-white px-lg-5 padding-y px-4 shadow btn-warning mx-auto btn-custom-4"
         >
           Register &rarr;
-        </button>
+        </a>
       </div>
     </div>
     <!-- footer -->
@@ -1089,8 +1075,8 @@
               >
                 Still thinking? Take your first step with Startup TN.
               </h3>
-              <button
-                type="button"
+              <a
+                href="./login/register.html"
                 class="btn py-lg-3 px-lg-5 py-2 px-1 btn-warning d-flex mx-auto btn-custom-3 justify-content-center align-items-center"
               >
                 <h4
@@ -1099,7 +1085,7 @@
                   Register Now
                   <span><i class="fas fa-arrow-right icon-3"></i></span>
                 </h4>
-              </button>
+              </a>
             </div>
           </div>
         </div>
@@ -1269,11 +1255,15 @@
               <p class="mt-n2 para"></p>
               © 2019 Startup TN. All Rights Reserved.
               <div class="mt-lg-1 mt-1">
-                <a href="#" class="color-yellow hover-color"
+                <a
+                  href="https://docs.google.com/document/d/1bxNNuDXm_V8f_0Nuci11DnHalxgt9Huo83tf430eZBU/edit"
+                  class="color-yellow hover-color"
                   >Terms of Services</a
                 >
 
-                <a href="#" class="color-yellow hover-color ml-lg-3 mr-3"
+                <a
+                  href="https://docs.google.com/document/d/1-Qg_2m-6oqwReiQ_Din0taozPc18atPdLPDffC_r5OQ/edit"
+                  class="color-yellow hover-color ml-lg-3 mr-3"
                   >Privacy Policy</a
                 >
               </div>
