@@ -165,6 +165,16 @@
   }
 }
 
+.btn-blue-3 {
+  background-color: #609fff;
+  border-radius: 0;
+  &:hover,
+  &:focus {
+    color: white;
+    background-color: #609fff;
+  }
+}
+
 .btn-pink-2 {
   background-color: #ff808b;
   border-color: #ff808b;

@@ -159,6 +159,13 @@ body {
     color: white;
     border-color: #609fff; }
 
+.btn-blue-3 {
+  background-color: #609fff;
+  border-radius: 0; }
+  .btn-blue-3:hover, .btn-blue-3:focus {
+    color: white;
+    background-color: #609fff; }
+
 .btn-pink-2 {
   background-color: #ff808b;
   border-color: #ff808b; }
@@ -702,6 +709,9 @@ input[type='checkbox'] {
 .bg-light-blue {
   background: #ecf3ff; }
 
+.bg-light-blue-2 {
+  background-color: #e1f6ff; }
+
 .bg-light-pink {
   background: #fff4fd; }
 
@@ -794,6 +804,34 @@ input[type='checkbox'] {
 
 .hover-black:hover {
   color: black; }
+
+.fig-img {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  position: relative;
+  width: 100%;
+  margin-bottom: 0;
+  height: 250px;
+  background-color: #201826;
+  background-image: url("https://staging.startuptn.in/media/images/thumb_9efatd3mnrfwl5e_adaptiveResize_1600_518.png"); }
+
+.gradient {
+  position: absolute;
+  color: #fff;
+  width: 100%;
+  height: 100%;
+  bottom: 0;
+  left: 0;
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.9)), color-stop(53.27%, transparent));
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.9), transparent 53.27%);
+  padding: 8px 16px;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column; }
+
+.border-rad-0 {
+  border-radius: 0; }
 
 @media only screen and (max-width: 450px) {
   .card {
